@@ -1,4 +1,4 @@
-# Dmitry Ilyushko  
+# Dmitry Iliyushko  
 **Backend Developer | Python Specialist | System Integrator**
 
 ![Profile Views](https://komarev.com/ghpvc/?username=lightclove&color=blue)  
