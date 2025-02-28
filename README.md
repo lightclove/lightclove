@@ -61,7 +61,7 @@ I am a backend developer with over 10+ years of experience in software developme
 Feel free to reach out if you'd like to discuss potential collaboration or learn more about my experience:  
 - **Telegram:** [@lightclove](https://t.me/lightclove)  
 - **GitHub:** [github.com/lightclove](https://github.com/lightclove)  
-- **Email:** 79217526217@yandex.ru  
+- **Email:** dm.ilyushko@gmail.com 
 
 ---
 
