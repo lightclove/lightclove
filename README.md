@@ -8,7 +8,7 @@
 ---
 
 ## **About Me**
-I am a backend developer with over 10+ years of experience in software development and system integration. My expertise lies in designing and implementing scalable systems, working with microservices architecture, and integrating complex industrial equipment. I specialize in Python (FastAPI, asyncio) and have extensive experience with databases, message brokers, and low-level protocols.
+I am a backend developer with over 10+ years of experience in software development and system integration. My expertise lies in designing and implementing scalable systems, working with microservices architecture, and integrating complex industrial equipment. I specialize in Python (FastAPI, Django, asyncio) and have extensive experience with databases, message brokers, and low-level protocols.
 
 ---
 
@@ -55,6 +55,9 @@ I am a backend developer with over 10+ years of experience in software developme
 - Russian: Native  
 - English: B1    
 
+
+## **Interests**
+- LLM and neural networks, machine learning, making telegram and other bots. I like travel and tourism so much, wild nature, fishing, shrooming.
 ---
 
 ## **Contact Me**
