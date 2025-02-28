@@ -70,7 +70,13 @@ Feel free to reach out if you'd like to discuss potential collaboration or learn
 
 ## **Why Work With Me?**
 I bring over a decade of hands-on experience in backend development, system integration, and project management. My focus is on solving complex technical challenges that directly impact business outcomes. I value professional growth, teamwork, and delivering high-quality results.
-
+I strive to develop suspended and constructive solutions based on observation. 
+Values: 
+• Humanity as an important factor in the processes of development and support by 
+• the desire for awareness in decision -making is a conscious goal -setting and achievement 
+• The desire to distinguish the main thing in the work of the principle of 80/20/80 - the important, the interests of the interests of all parties, the desire for synergy in communication and interaction 
+• the desire for balanced and constructive solutions based on observation, based on observation, based on observation, based on supervision, based on observation 
+• respect for your own and other people's time, personal space
 ---
 
 ## **License**
