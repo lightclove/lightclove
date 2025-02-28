@@ -47,7 +47,7 @@ I am a backend developer with over 10+ years of experience in software developme
 - Agile, Scrum, Kanban  
 - ATDD/BDD Testing  
 - REST API Design  
-- Technical Documentation (GOST 19)  
+- Technical Documentation (ГОСТ 19 ЕСПД technical specifications development)  
 
 ---
 
