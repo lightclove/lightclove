@@ -57,7 +57,8 @@ I am a backend developer with over 10+ years of experience in software developme
 
 
 ## **Interests**
-Bots, LLMs, highload. Travelling, tourism, fishing.
+- Bots, LLMs, highload. 
+- Travelling, tourism, fishing.
 ---
 
 ## **Contact Me**
