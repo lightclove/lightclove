@@ -1,6 +1,5 @@
 # Дмитрий Ильюшко  
-**Backend разработчик | Специалист по Python | Системный интегратор**
-
+** Sr. Backend Python | Системный интегратор**
 ![Profile Views](https://komarev.com/ghpvc/?username=lightclove&color=blue)  
 [![Telegram](https://img.shields.io/badge/Telegram-@lightclove-blue)](https://t.me/lightclove)  
 [![GitHub](https://img.shields.io/badge/GitHub-lightclove-green)](https://github.com/lightclove)
