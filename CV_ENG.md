@@ -35,11 +35,7 @@ I am a backend developer with over 10+ years of experience in software developme
 ## **Education**
 - **Saint Petersburg State University of Railway Transport**  
   Faculty: Electrotechnical  
-  Specialization: Applied Mathematics and Informatics (2009)  
-
-- **Additional Education:**  
-  - SQL and PL/SQL in Oracle 11G  
-  - C Programming (Avalon Courses)  
+  Specialization: Applied Mathematics and Informatics (2009)
 
 ---
 
