@@ -1,74 +1,89 @@
-# Dmitry Iliyushko  
-**Backend Developer | Python Specialist | System Integrator**
+# Dmitry Iliyushko
 
-![Profile Views](https://komarev.com/ghpvc/?username=lightclove&color=blue)  
-[![Telegram](https://img.shields.io/badge/Telegram-@lightclove-blue)](https://t.me/lightclove)  
-[![GitHub](https://img.shields.io/badge/GitHub-lightclove-green)](https://github.com/lightclove)
+**Senior Backend Python Engineer | Fullstack | System Integrator**  
+[![Telegram](https://img.shields.io/badge/Telegram-@lightclove-26A5E4?style=flat&logo=telegram&logoColor=white)](https://t.me/lightclove)
+[![GitHub](https://img.shields.io/badge/GitHub-lightclove-181717?style=flat&logo=github&logoColor=white)](https://github.com/lightclove)
+[![Email](https://img.shields.io/badge/Email-dm.ilyushko@gmail.com-D14836?style=flat&logo=gmail&logoColor=white)](mailto:dm.ilyushko@gmail.com)
 
----
-
-## **About Me**
-I am a backend developer with over 10+ years of experience in software development and system integration. My expertise lies in designing and implementing scalable systems, working with microservices architecture, and integrating complex industrial equipment. I specialize in Python (FastAPI, Django, asyncio) and have extensive experience with databases, message brokers, and low-level protocols.
+> **15+ years** in backend development, system integration, and industrial automation.  
+> Specialise in **Python (FastAPI, asyncio)**, **microservices**, **LLM/RAG**, and **low‑level protocols**.
 
 ---
 
-## **Key Skills**
-- **Programming Languages:** Python, C++, Java, Bash  
-- **Frameworks & Libraries:** FastAPI, aiohttp, Celery, Dramatiq  
-- **Message Brokers:** NATS, RabbitMQ  
-- **Databases:** PostgreSQL, Oracle, MS SQL Server, MongoDB  
-- **Protocols:** Modbus, SNMP, LLDP, UART, RS-232, RS-485  
-- **Operating Systems:** Arch Linux, Debian, Ubuntu, CentOS, Astra Linux, Raspbian, buildroot 
-- **Tools:** Docker, Kubernetes, Git, SVN, pytest  
+## 🛠️ Core Skills
+
+| Category | Technologies |
+|----------|--------------|
+| **Languages** | Python, Go, C++, Java (core), Bash |
+| **Frameworks** | FastAPI, aiohttp, Celery, Dramatiq, gRPC |
+| **Brokers / DB** | NATS, RabbitMQ · PostgreSQL, Oracle, MongoDB, ClickHouse, Qdrant |
+| **Protocols** | Modbus (TCP/RTU), SNMP, LLDP, UART, RS‑232/485 |
+| **OS & Infra** | Linux (Arch/Debian/Ubuntu/CentOS/Astra), Docker, Kubernetes, Git, pytest |
+| **AI/ML** | LLM, RAG, sentence‑transformers, PyTorch, OpenCV, YOLO |
 
 ---
 
-## **Experience Highlights**
-- **Microservices Development:** Designed and implemented asynchronous microservices using Python, FastAPI, and message brokers like NATS and RabbitMQ.  
-- **Industrial Equipment Integration:** Worked with Modbus, RS-485, and Arduino for managing industrial hardware and processing sensor data.  
-- **Telecom Monitoring Systems:** Developed NMS/EMS systems for monitoring telecom equipment using SNMP, LLDP, and PostgreSQL.  
-- **VoIP Solutions:** Integrated VoIP systems and secure communication networks, including synchronization via SNTP.  
-- **System Architecture:** Led the design and implementation of client-server systems, wrote technical documentation, and coordinated development teams.  
+## 💼 Selected Experience
+
+**AI Python Fullstack Developer** @ MSA (09.2025 – present)  
+- Built an in‑house **RAG platform** for technical documentation (FastAPI + vanilla JS).  
+- Optimised LLM context with `tiktoken`, reduced errors; added embedding caching → search speed **x3**.  
+- Stack: Python 3.13, FastAPI, Qdrant, sentence‑transformers, OCR (Tesseract), LM Studio, Ollama.
+
+**Python Developer** @ self‑employed (01.2025 – 08.2025)  
+- Developed **microservices** for UAV manufacturing automation: Modbus TCP/RTU calibration API.  
+- Created an **async ETL server** and integration bus for 1C (FastAPI, BeautifulSoup, Scrapy).
+
+**Backend Developer** @ New Zealand (01.2024 – 08.2024)  
+- Built social media integration via **rss‑bridge** on Go + Python; deployed on Kubernetes.  
+- Implemented multi‑language Telegram bot (gorilla/mux, gofeed, goi18n).
+
+**Backend Developer** @ Неотех (03.2023 – 12.2023)  
+- Designed a microservice system handling **5000+ RPS** (FastAPI, gRPC, PostgreSQL, ClickHouse).
+
+**Backend Developer** @ self‑employed (10.2021 – 03.2023)  
+- Integration bus for a major telecom operator: routing, data transformation, billing integration.  
+- R&D: **NMS/EMS** monitoring system (pysnmp, LLDP, RabbitMQ, Dramatiq) – moved processing from DB to middleware → performance boost.
+
+**System Administrator‑Developer** @ Tricolor TV (11.2020 – 10.2021)  
+- Maintained omnichannel system for **12.6M users**; integrated Genesys with VoIP and chatbots.
+
+**Engineer‑Programmer** (2010 – 2020)  
+- Various industrial & gov‑level projects: client‑server systems, network monitoring, UAV middleware.  
+- Tech: C++, Qt, Python, PostgreSQL, SNMP, Modbus.
 
 ---
 
-## **Education**
-- **Saint Petersburg State University of Railway Transport**  
-  Faculty: Electrotechnical  
-  Specialization: Applied Mathematics and Informatics (2009)
+## 🎓 Education
+
+**Saint Petersburg State University of Railway Transport**  
+*Applied Mathematics & Informatics* (2009)  
+Additional: Oracle SQL/PLSQL, C programming.
 
 ---
 
-## **Methodologies**
-- Agile, Scrum, Kanban  
-- ATDD/BDD Testing  
-- REST API Design  
-- Technical Documentation  (technical specifications development)  
+## 📌 Methodologies & Soft Skills
+
+- Agile (Scrum/Kanban), ATDD/BDD, REST API design  
+- Technical documentation (GOST 19 ESPD)  
+- Team coordination, mentoring  
 
 ---
 
-## **Languages**
-- Russian: Native  
-- English: B1    
+## 🌐 Languages
 
-
-## **Interests**
-- Bots, LLMs, highload. 
-- Travelling, tourism, fishing.
----
-
-## **Contact Me**
-Feel free to reach out if you'd like to discuss potential collaboration or learn more about my experience:  
-- **Telegram:** [@lightclove](https://t.me/lightclove)  
-- **GitHub:** [github.com/lightclove](https://github.com/lightclove)  
-- **Email:** dm.ilyushko@gmail.com 
+| Language | Level |
+|----------|-------|
+| Russian  | Native |
+| English  | B1 (active, technical documentation) |
 
 ---
 
-## **Why Work With Me?**
-I bring over a decade of hands-on experience in backend development, system integration, and project management. My focus is on solving complex technical challenges that directly impact business outcomes. 
+## 🔍 Interests
+
+LLM agents, high‑load systems, industrial automation, travelling, fishing.
 
 ---
 
-## **License**
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+📄 *Full‑time, remote only. Expected salary: from 300k RUB net.*  
+📫 Telegram: [@lightclove](https://t.me/lightclove)
