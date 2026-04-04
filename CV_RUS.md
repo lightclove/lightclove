@@ -1,74 +1,89 @@
-# Дмитрий Ильюшко  
-** Sr. Backend Python | Системный интегратор**
-![Profile Views](https://komarev.com/ghpvc/?username=lightclove&color=blue)  
-[![Telegram](https://img.shields.io/badge/Telegram-@lightclove-blue)](https://t.me/lightclove)  
-[![GitHub](https://img.shields.io/badge/GitHub-lightclove-green)](https://github.com/lightclove)
+# Дмитрий Ильюшко
+
+**Senior Backend Python Engineer | Fullstack | Системный интегратор**  
+[![Telegram](https://img.shields.io/badge/Telegram-@lightclove-26A5E4?style=flat&logo=telegram&logoColor=white)](https://t.me/lightclove)
+[![GitHub](https://img.shields.io/badge/GitHub-lightclove-181717?style=flat&logo=github&logoColor=white)](https://github.com/lightclove)
+[![Email](https://img.shields.io/badge/Email-dm.ilyushko@gmail.com-D14836?style=flat&logo=gmail&logoColor=white)](mailto:dm.ilyushko@gmail.com)
+
+> **Более 15 лет** в бэкенд-разработке, системной интеграции и промышленной автоматизации.  
+> Специализация: **Python (FastAPI, asyncio)**, **микросервисы**, **LLM/RAG**, **низкоуровневые протоколы**.
 
 ---
 
-## **Обо мне**
-Backend-разработчик с 10+ годами опыта в системной интеграции, промышленной автоматизации и разработке микросервисов. Специализируюсь на Python (FastAPI, asyncio), построении асинхронных систем и API, обработке данных с промышленного оборудования. Работал с низкоуровневыми протоколами (Modbus, SNMP, UART), брокерами сообщений (RabbitMQ, NATS), базами данных и DevOps-стеком. Сфокусирован на решении прикладных задач бизнеса, внедрении эффективных решений и создании архитектур с высокой надежностью и масштабируемостью.
+## Ключевые навыки
+
+| Область | Технологии |
+|---------|------------|
+| **Языки** | Python, Go, C++, Java (core), Bash |
+| **Фреймворки** | FastAPI, aiohttp, Celery, Dramatiq, gRPC |
+| **Брокеры / БД** | NATS, RabbitMQ · PostgreSQL, Oracle, MongoDB, ClickHouse, Qdrant |
+| **Протоколы** | Modbus (TCP/RTU), SNMP, LLDP, UART, RS‑232/485 |
+| **ОС и инфра** | Linux (Arch/Debian/Ubuntu/CentOS/Astra), Docker, Kubernetes, Git, pytest |
+| **AI/ML** | LLM, RAG, sentence‑transformers, PyTorch, OpenCV, YOLO |
 
 ---
 
-## **Ключевые навыки**
-- **Языки программирования:** Python, C++, Java, Bash  
-- **Фреймворки и библиотеки:** FastAPI, aiohttp, Celery, Dramatiq  
-- **Брокеры сообщений:** NATS, RabbitMQ  
-- **Базы данных:** PostgreSQL, Oracle, MS SQL Server, MongoDB  
-- **Протоколы:** Modbus, SNMP, LLDP, UART, RS-232, RS-485  
-- **Операционные системы:** Arch Linux, Debian, Ubuntu, CentOS, Astra Linux, Raspbian, buildroot  
-- **Инструменты:** Docker, Kubernetes, Git, SVN, pytest  
+## Опыт работы (ключевое)
+
+**AI Python Fullstack Разработчик** @ МСА (09.2025 – н.в.)  
+- Разработал in‑house **RAG-платформу** для техдокументации (FastAPI + vanilla JS).  
+- Оптимизировал контекст LLM через `tiktoken`; кэширование эмбеддингов ускорило поиск в **3 раза**.  
+- Стек: Python 3.13, FastAPI, Qdrant, sentence‑transformers, OCR, LM Studio, Ollama.
+
+**Python Разработчик** @ самозанятый (01.2025 – 08.2025)  
+- Микросервисы для автоматизации производства БЛА: API калибровки (Modbus TCP/RTU).  
+- Асинхронный ETL-сервер и шина интеграции с 1С (FastAPI, BeautifulSoup, Scrapy).
+
+**Backend-разработчик** @ Новая Зеландия (01.2024 – 08.2024)  
+- Интеграция с соцсетями через rss‑bridge на Go + Python; деплой в Kubernetes.  
+- Многоязычный Telegram‑бот (gorilla/mux, gofeed, goi18n).
+
+**Backend-разработчик** @ Неотех (03.2023 – 12.2023)  
+- Микросервисная система с **5000+ RPS** (FastAPI, gRPC, PostgreSQL, ClickHouse).
+
+**Backend-разработчик** @ самозанятый (10.2021 – 03.2023)  
+- Интеграционная шина для крупного телеком‑оператора: маршрутизация, трансформация, биллинг.  
+- R&D: **NMS/EMS** мониторинг (pysnmp, LLDP, RabbitMQ, Dramatiq) – вынос обработки из БД в middleware → рост производительности.
+
+**Администратор-Разработчик** @ Триколор ТВ (11.2020 – 10.2021)  
+- Поддержка омниканальной системы для **12,6 млн пользователей**; интеграция Genesys с VoIP и чат‑ботами.
+
+**Инженер-программист** (2010 – 2020)  
+- Промышленные и госпроекты: клиент-серверные системы, мониторинг сетей, middleware для БЛА.  
+- Технологии: C++, Qt, Python, PostgreSQL, SNMP, Modbus.
 
 ---
 
-## **Основные достижения**
-- **Разработка микросервисов:** Проектирование и реализация асинхронных микросервисов с использованием Python, FastAPI и брокеров сообщений, таких как NATS и RabbitMQ.  
-- **Интеграция промышленного оборудования:** Работа с Modbus, RS-485 и Arduino для управления промышленным оборудованием и обработки данных с датчиков.  
-- **Системы мониторинга телекоммуникаций:** Разработка NMS/EMS-систем для мониторинга телекоммуникационного оборудования с использованием SNMP, LLDP и PostgreSQL.  
-- **VoIP-решения:** Интеграция VoIP-систем и защищенных сетей связи, включая синхронизацию через SNTP.  
-- **Архитектура систем:** Руководство проектированием и реализацией клиент-серверных систем, написание технической документации и координация команд разработчиков.  
+## Образование
+
+**ПГУПС Императора Александра I**  
+*Прикладная математика и информатика* (2009)  
+Дополнительно: Oracle SQL/PLSQL, программирование на C.
 
 ---
 
-## **Образование**
-- **Санкт-Петербургский государственный университет путей сообщения**  
-  Факультет: Электротехнический  
-  Специализация: Прикладная математика и информатика (2009)  
+## Методологии и софт‑скиллы
 
-- **Дополнительное образование:**  
-  - SQL и PL/SQL в Oracle 11G  
-  - Программирование на C (курсы Avalon)  
+- Agile (Scrum/Kanban), ATDD/BDD, проектирование REST API  
+- Техническая документация (ГОСТ 19 ЕСПД)  
+- Координация команд, наставничество  
 
 ---
 
-## **Методологии**
-- Agile, Scrum, Kanban  
-- ATDD/BDD тестирование  
-- Проектирование REST API  
-- Разработка технической документации (ГОСТ 19 ЕСПД)  
+## Языки
+
+| Язык   | Уровень |
+|--------|---------|
+| Русский | Родной  |
+| Английский | B1 (активно, читаю техдокументацию) |
 
 ---
 
-## **Языки**
-- Русский: Родной  
-- Английский: B1  
+## Интересы
+
+LLM‑агенты, высоконагруженные системы, промышленная автоматизация, путешествия, рыбалка.
 
 ---
 
-## **Интересы**
-- Боты, LLM, высоконагруженные системы.  
-- Путешествия, туризм.  
-
----
-
-## **Контакты**
-Если вы хотите обсудить возможное сотрудничество или узнать больше о моем опыте, свяжитесь со мной:  
-- **Telegram:** [@lightclove](https://t.me/lightclove)  
-- **GitHub:** [github.com/lightclove](https://github.com/lightclove)  
-- **Email:** dm.ilyushko@gmail.com  
-
----
-
-## **Лицензия**
-Этот проект лицензирован по лицензии MIT - подробности см. в файле [LICENSE](LICENSE).  
+*Полная занятость, только удалённо. Ожидаемая зарплата: от 300 000 ₽ на руки.*  
+Telegram: [@lightclove](https://t.me/lightclove)
