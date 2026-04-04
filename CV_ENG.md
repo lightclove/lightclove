@@ -1,6 +1,6 @@
 # Dmitry Iliyushko
 
-**Senior Backend Python Engineer | Fullstack | System Integrator**  
+**Senior Backend Python Engineer | Fullstack | AI/System Integrator**  
 [![Telegram](https://img.shields.io/badge/Telegram-@lightclove-26A5E4?style=flat&logo=telegram&logoColor=white)](https://t.me/lightclove)
 [![GitHub](https://img.shields.io/badge/GitHub-lightclove-181717?style=flat&logo=github&logoColor=white)](https://github.com/lightclove)
 [![Email](https://img.shields.io/badge/Email-dm.ilyushko@gmail.com-D14836?style=flat&logo=gmail&logoColor=white)](mailto:dm.ilyushko@gmail.com)
@@ -10,7 +10,7 @@
 
 ---
 
-## 🛠️ Core Skills
+## Core Skills
 
 | Category | Technologies |
 |----------|--------------|
@@ -23,7 +23,7 @@
 
 ---
 
-## 💼 Selected Experience
+## Selected Experience
 
 **AI Python Fullstack Developer** @ MSA (09.2025 – present)  
 - Built an in‑house **RAG platform** for technical documentation (FastAPI + vanilla JS).  
@@ -54,7 +54,7 @@
 
 ---
 
-## 🎓 Education
+## Education
 
 **Saint Petersburg State University of Railway Transport**  
 *Applied Mathematics & Informatics* (2009)  
@@ -62,7 +62,7 @@ Additional: Oracle SQL/PLSQL, C programming.
 
 ---
 
-## 📌 Methodologies & Soft Skills
+## Methodologies & Soft Skills
 
 - Agile (Scrum/Kanban), ATDD/BDD, REST API design  
 - Technical documentation (GOST 19 ESPD)  
@@ -70,7 +70,7 @@ Additional: Oracle SQL/PLSQL, C programming.
 
 ---
 
-## 🌐 Languages
+## Languages
 
 | Language | Level |
 |----------|-------|
@@ -85,5 +85,5 @@ LLM agents, high‑load systems, industrial automation, travelling, fishing.
 
 ---
 
-📄 *Full‑time, remote only. Expected salary: from 300k RUB net.*  
-📫 Telegram: [@lightclove](https://t.me/lightclove)
+*Full‑time, remote only. Expected salary: from 300k RUB net.*  
+Telegram: [@lightclove](https://t.me/lightclove)
