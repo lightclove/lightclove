@@ -1,11 +1,11 @@
 # Dmitry Iliyushko
 
-**Senior Backend Python Engineer | Fullstack | AI/System Integrator**  
+** Backend Python Engineer | Fullstack | AI/System Integrator**  
 [![Telegram](https://img.shields.io/badge/Telegram-@lightclove-26A5E4?style=flat&logo=telegram&logoColor=white)](https://t.me/lightclove)
 [![GitHub](https://img.shields.io/badge/GitHub-lightclove-181717?style=flat&logo=github&logoColor=white)](https://github.com/lightclove)
 [![Email](https://img.shields.io/badge/Email-dm.ilyushko@gmail.com-D14836?style=flat&logo=gmail&logoColor=white)](mailto:dm.ilyushko@gmail.com)
 
-> **15+ years** in backend development, system integration, and industrial automation.  
+> **10+ years** in backend development, system integration, and industrial automation.  
 > Specialise in **Python (FastAPI, asyncio)**, **microservices**, **LLM/RAG**, and **low‑level protocols**.
 
 ---
