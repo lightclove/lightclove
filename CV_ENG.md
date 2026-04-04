@@ -1,4 +1,4 @@
-# Dmitry Iliyushko
+# Dmitriy Iliyushko
 
 ** Backend Python Engineer | Fullstack | AI/System Integrator**  
 [![Telegram](https://img.shields.io/badge/Telegram-@lightclove-26A5E4?style=flat&logo=telegram&logoColor=white)](https://t.me/lightclove)
