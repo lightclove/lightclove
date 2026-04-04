@@ -65,7 +65,7 @@ Additional: Oracle SQL/PLSQL, C programming.
 ## Methodologies & Soft Skills
 
 - Agile (Scrum/Kanban), ATDD/BDD, REST API design  
-- Technical documentation (GOST 19 ESPD)  
+- Technical documentation (ESPD)  
 - Team coordination, mentoring  
 
 ---
