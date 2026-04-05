@@ -14,7 +14,7 @@
 
 | Category | Technologies |
 |----------|--------------|
-| **Languages** | Python, Go, C++, Java (core), Bash |
+| **Languages** | Python, Go, C++, Bash |
 | **Frameworks** | FastAPI, aiohttp, Celery, Dramatiq, gRPC |
 | **Brokers / DB** | NATS, RabbitMQ · PostgreSQL, Oracle, MongoDB, ClickHouse, Qdrant |
 | **Protocols** | Modbus (TCP/RTU), SNMP, LLDP, UART, RS‑232/485 |
@@ -25,7 +25,7 @@
 
 ## Selected Experience
 
-**AI Python Fullstack Developer** @ MSA (09.2025 – present)  
+**AI Python Fullstack Developer** @  (09.2025 – present)  
 - Built an in‑house **RAG platform** for technical documentation (FastAPI + vanilla JS).  
 - Optimised LLM context with `tiktoken`, reduced errors; added embedding caching → search speed **x3**.  
 - Stack: Python 3.13, FastAPI, Qdrant, sentence‑transformers, OCR (Tesseract), LM Studio, Ollama.
@@ -38,14 +38,14 @@
 - Built social media integration via **rss‑bridge** on Go + Python; deployed on Kubernetes.  
 - Implemented multi‑language Telegram bot (gorilla/mux, gofeed, goi18n).
 
-**Backend Developer** @ Неотех (03.2023 – 12.2023)  
+**Backend Developer** @ Neotech (03.2023 – 12.2023)  
 - Designed a microservice system handling **5000+ RPS** (FastAPI, gRPC, PostgreSQL, ClickHouse).
 
 **Backend Developer** @ self‑employed (10.2021 – 03.2023)  
 - Integration bus for a major telecom operator: routing, data transformation, billing integration.  
 - R&D: **NMS/EMS** monitoring system (pysnmp, LLDP, RabbitMQ, Dramatiq) – moved processing from DB to middleware → performance boost.
 
-**System Administrator‑Developer** @ Tricolor TV (11.2020 – 10.2021)  
+**System Administrator‑Developer** @ NSK(11.2020 – 10.2021)  
 - Maintained omnichannel system for **12.6M users**; integrated Genesys with VoIP and chatbots.
 
 **Engineer‑Programmer** (2010 – 2020)  
