@@ -81,9 +81,8 @@ Additional: Oracle SQL/PLSQL, C programming.
 
 ## 🔍 Interests
 
-LLM agents, high‑load systems, industrial automation, travelling, fishing.
+LLM agents, high‑load systems, industrial automation
 
 ---
 
-*Full‑time, remote only. Expected salary: from 300k RUB net.*  
 Telegram: [@lightclove](https://t.me/lightclove)
