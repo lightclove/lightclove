@@ -1,6 +1,6 @@
 # Дмитрий Ильюшко
 
-** Fullstack Python Engineer | Системный интегратор**  
+** Fullstack Python Engineer | AI/LLM/Системный интегратор**  
 [![Telegram](https://img.shields.io/badge/Telegram-@lightclove-26A5E4?style=flat&logo=telegram&logoColor=white)](https://t.me/lightclove)
 [![GitHub](https://img.shields.io/badge/GitHub-lightclove-181717?style=flat&logo=github&logoColor=white)](https://github.com/lightclove)
 [![Email](https://img.shields.io/badge/Email-dm.ilyushko@gmail.com-D14836?style=flat&logo=gmail&logoColor=white)](mailto:dm.ilyushko@gmail.com)
