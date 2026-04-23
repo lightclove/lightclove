@@ -4,7 +4,7 @@
 </div>
 
 # Hi, I am Dmitry! 
-**Senior Backend Python Engineer | System Integrator | AI/LLM**
+** Python Fullstack Engineer | System/AI/LLM Integrator **
 
 ---
 
