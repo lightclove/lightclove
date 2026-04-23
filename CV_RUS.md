@@ -64,7 +64,7 @@
 
 ## Методологии и софт‑скиллы
 
-- Agile (Scrum/Kanban), ATDD/BDD, проектирование REST API  
+- Agile (Scrum/Kanban), TDD/BDD, проектирование REST API  
 - Техническая документация  
 - Координация команд
 
