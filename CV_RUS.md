@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/lightclove/lightclove/main/assets/hero-neon.svg" width="100%" alt="LIGHTCLOVE"/>
+<img src="https://raw.githubusercontent.com/lightclove/lightclove/main/assets/hero-neon.svg?v=19aee6f" width="100%" alt="LIGHTCLOVE"/>
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=22&duration=2500&pause=700&color=38BDF8&center=true&vCenter=true&width=700&height=50&lines=%D0%A0%D0%95%D0%97%D0%AE%D0%9C%D0%95+%2F%2F+CV_RUS.md;%D0%94%D0%BC%D0%B8%D1%82%D1%80%D0%B8%D0%B9+%C2%B7+Python+%2F+Rust;%D0%B1%D0%B0%D0%BA%D0%B5%D0%BD%D0%B4+%2F+fullstack+%C2%B7+15+%D0%BB%D0%B5%D1%82" alt="typing"/>
 
@@ -10,11 +10,11 @@
 [![GitHub](https://img.shields.io/badge/GitHub-lightclove-0d1117?style=for-the-badge&logo=github&logoColor=818CF8&labelColor=818CF8)](https://github.com/lightclove)
 [![Email](https://img.shields.io/badge/Email-dm.ilyushko@gmail.com-0d1117?style=for-the-badge&logo=gmail&logoColor=94A3B8&labelColor=0d1117)](mailto:dm.ilyushko@gmail.com)
 
-<img src="https://raw.githubusercontent.com/lightclove/lightclove/main/assets/status-online.svg" alt="online"/>
+<img src="https://raw.githubusercontent.com/lightclove/lightclove/main/assets/status-online.svg?v=19aee6f" alt="online"/>
 
-<img src="https://raw.githubusercontent.com/lightclove/lightclove/main/assets/comedy-ticker.svg" width="95%" alt="jokes"/>
+<img src="https://raw.githubusercontent.com/lightclove/lightclove/main/assets/comedy-ticker.svg?v=19aee6f" width="95%" alt="jokes"/>
 
-<img src="https://raw.githubusercontent.com/lightclove/lightclove/main/assets/divider-scan.svg" width="100%" alt="scan"/>
+<img src="https://raw.githubusercontent.com/lightclove/lightclove/main/assets/divider-scan.svg?v=19aee6f" width="100%" alt="scan"/>
 
 **Санкт-Петербург** · удалёнка / гибрид · полная занятость · **15 лет**
 
@@ -216,7 +216,7 @@ Telegram-бот учёта расходов (исходник для rbot): aiog
 
 **ПГУПС**, 2009 · прикладная математика и информатика (математик, системный программист)
 
-<img src="https://raw.githubusercontent.com/lightclove/lightclove/main/assets/divider-scan.svg" width="100%" alt="scan"/>
+<img src="https://raw.githubusercontent.com/lightclove/lightclove/main/assets/divider-scan.svg?v=19aee6f" width="100%" alt="scan"/>
 
 `// end of transmission — CV_RUS · DNS not blamed this time`
 

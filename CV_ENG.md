@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/lightclove/lightclove/main/assets/hero-neon.svg" width="100%" alt="LIGHTCLOVE"/>
+<img src="https://raw.githubusercontent.com/lightclove/lightclove/main/assets/hero-neon.svg?v=19aee6f" width="100%" alt="LIGHTCLOVE"/>
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=22&duration=2500&pause=700&color=38BDF8&center=true&vCenter=true&width=700&height=50&lines=RESUME+%2F%2F+CV_ENG.md;Dmitriy+%C2%B7+Python+%2F+Rust;backend+%2F+fullstack+%C2%B7+15+years" alt="typing"/>
 
@@ -10,11 +10,11 @@
 [![GitHub](https://img.shields.io/badge/GitHub-lightclove-0d1117?style=for-the-badge&logo=github&logoColor=818CF8&labelColor=818CF8)](https://github.com/lightclove)
 [![Email](https://img.shields.io/badge/Email-dm.ilyushko@gmail.com-0d1117?style=for-the-badge&logo=gmail&logoColor=94A3B8&labelColor=0d1117)](mailto:dm.ilyushko@gmail.com)
 
-<img src="https://raw.githubusercontent.com/lightclove/lightclove/main/assets/status-online.svg" alt="online"/>
+<img src="https://raw.githubusercontent.com/lightclove/lightclove/main/assets/status-online.svg?v=19aee6f" alt="online"/>
 
-<img src="https://raw.githubusercontent.com/lightclove/lightclove/main/assets/comedy-ticker.svg" width="95%" alt="jokes"/>
+<img src="https://raw.githubusercontent.com/lightclove/lightclove/main/assets/comedy-ticker.svg?v=19aee6f" width="95%" alt="jokes"/>
 
-<img src="https://raw.githubusercontent.com/lightclove/lightclove/main/assets/divider-scan.svg" width="100%" alt="scan"/>
+<img src="https://raw.githubusercontent.com/lightclove/lightclove/main/assets/divider-scan.svg?v=19aee6f" width="100%" alt="scan"/>
 
 **Saint Petersburg** · remote / hybrid · full-time · **15 years**
 
@@ -216,7 +216,7 @@ FastAPI proxy between 1C and LM Studio: normalize 1C→OpenAI API requests, TDD,
 
 **Emperor Alexander I St. Petersburg State Transport University (PGUPS)**, 2009 · applied mathematics and informatics (mathematician, systems programmer)
 
-<img src="https://raw.githubusercontent.com/lightclove/lightclove/main/assets/divider-scan.svg" width="100%" alt="scan"/>
+<img src="https://raw.githubusercontent.com/lightclove/lightclove/main/assets/divider-scan.svg?v=19aee6f" width="100%" alt="scan"/>
 
 `// end of transmission — CV_ENG · DNS not blamed this time`
 

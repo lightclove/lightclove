@@ -8,17 +8,17 @@
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/lightclove/lightclove/main/assets/night-stage.svg" width="100%" alt="night stage"/>
+<img src="https://raw.githubusercontent.com/lightclove/lightclove/main/assets/night-stage.svg?v=19aee6f" width="100%" alt="night stage"/>
 
 <a href="https://github.com/lightclove/lightclove">
-  <img src="https://raw.githubusercontent.com/lightclove/lightclove/main/assets/hero-neon.svg" width="100%" alt="LIGHTCLOVE neon hero"/>
+  <img src="https://raw.githubusercontent.com/lightclove/lightclove/main/assets/hero-neon.svg?v=19aee6f" width="100%" alt="LIGHTCLOVE neon hero"/>
 </a>
 
 <br/>
 
-<img src="https://raw.githubusercontent.com/lightclove/lightclove/main/assets/status-online.svg" alt="status online"/>
+<img src="https://raw.githubusercontent.com/lightclove/lightclove/main/assets/status-online.svg?v=19aee6f" alt="status online"/>
 <br/>
-<img src="https://raw.githubusercontent.com/lightclove/lightclove/main/assets/comedy-ticker.svg" width="90%" alt="comedy ticker"/>
+<img src="https://raw.githubusercontent.com/lightclove/lightclove/main/assets/comedy-ticker.svg?v=19aee6f" width="90%" alt="comedy ticker"/>
 
 <br/>
 
@@ -31,9 +31,9 @@
 [![tg](https://img.shields.io/badge/tg-@lightclove-0ea5e9?style=flat-square&logo=telegram&logoColor=white)](https://t.me/lightclove)
 [![mail](https://img.shields.io/badge/mail-dm.ilyushko%40gmail.com-64748b?style=flat-square&logo=gmail&logoColor=white)](mailto:dm.ilyushko@gmail.com)
 
-<img src="https://raw.githubusercontent.com/lightclove/lightclove/main/assets/divider-scan.svg" width="100%" alt="divider"/>
+<img src="https://raw.githubusercontent.com/lightclove/lightclove/main/assets/divider-scan.svg?v=19aee6f" width="100%" alt="divider"/>
 
-<img src="https://raw.githubusercontent.com/lightclove/lightclove/main/assets/boot-terminal.svg" width="92%" alt="boot terminal"/>
+<img src="https://raw.githubusercontent.com/lightclove/lightclove/main/assets/boot-terminal.svg?v=19aee6f" width="92%" alt="boot terminal"/>
 
 </div>
 
@@ -47,8 +47,8 @@
 
 | | |
 |:--:|:--:|
-| <img src="https://raw.githubusercontent.com/lightclove/lightclove/main/assets/core-reactor.svg" width="180" alt="reactor"/> | **Saint Petersburg** · remote / hybrid · full-time<br/><br/>Engineer→backend→fullstack.<br/>APIs · integrations · industrial protocols · telecom · document search.<br/><br/>In **Rust** — networking clients & Telegram bots:<br/>idea → compact release (Windows / Linux / Android).<br/><br/>`uptime=15y` · `neon_core=ONLINE` · `meetings=404` |
-| <img src="https://raw.githubusercontent.com/lightclove/lightclove/main/assets/loading-bar.svg" width="300" alt="loading"/> | [![CV RU](https://img.shields.io/badge/CV_РУС-0B1220?style=for-the-badge&labelColor=38BDF8&color=0B1220)](./CV_RUS.md)<br/>[![CV EN](https://img.shields.io/badge/CV_ENG-0B1220?style=for-the-badge&labelColor=818CF8&color=0B1220)](./CV_ENG.md) |
+| <img src="https://raw.githubusercontent.com/lightclove/lightclove/main/assets/core-reactor.svg?v=19aee6f" width="180" alt="reactor"/> | **Saint Petersburg** · remote / hybrid · full-time<br/><br/>Engineer→backend→fullstack.<br/>APIs · integrations · industrial protocols · telecom · document search.<br/><br/>In **Rust** — networking clients & Telegram bots:<br/>idea → compact release (Windows / Linux / Android).<br/><br/>`uptime=15y` · `neon_core=ONLINE` · `meetings=404` |
+| <img src="https://raw.githubusercontent.com/lightclove/lightclove/main/assets/loading-bar.svg?v=19aee6f" width="300" alt="loading"/> | [![CV RU](https://img.shields.io/badge/CV_РУС-0B1220?style=for-the-badge&labelColor=38BDF8&color=0B1220)](./CV_RUS.md)<br/>[![CV EN](https://img.shields.io/badge/CV_ENG-0B1220?style=for-the-badge&labelColor=818CF8&color=0B1220)](./CV_ENG.md) |
 
 </div>
 
@@ -165,7 +165,7 @@ flowchart LR
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/lightclove/lightclove/main/assets/divider-scan.svg" width="100%" alt="divider"/>
+<img src="https://raw.githubusercontent.com/lightclove/lightclove/main/assets/divider-scan.svg?v=19aee6f" width="100%" alt="divider"/>
 
 **PGUPS**, 2009 · applied mathematics & informatics
 
