@@ -149,5 +149,4 @@ Telegram-бот учёта расходов (исходник для rbot): aiog
 
 ## Стек
 
-Python · FastAPI · asyncio · PostgreSQL · MongoDB · Redis · SQLAlchemy · Pydantic · pytest  
-Rust · Docker · Linux · Git · RabbitMQ · NATS · gRPC · Modbus · SNMP · JavaScript · Go · C++ · Tor · Android NDK
+Python · FastAPI · PostgreSQL · Docker · Linux · Rust
