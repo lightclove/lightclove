@@ -1,20 +1,20 @@
 <div align="center">
 
-<img src="./assets/hero-neon.svg" width="100%" alt="LIGHTCLOVE"/>
+<img src="https://raw.githubusercontent.com/lightclove/lightclove/main/assets/hero-neon.svg" width="100%" alt="LIGHTCLOVE"/>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=22&duration=2500&pause=700&color=00F0FF&center=true&vCenter=true&width=700&height=50&lines=RESUME+%2F%2F+CV_ENG.md;Dmitriy+%C2%B7+Python+%2F+Rust;backend+%2F+fullstack+%C2%B7+15+years" alt="typing"/>
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=22&duration=2500&pause=700&color=38BDF8&center=true&vCenter=true&width=700&height=50&lines=RESUME+%2F%2F+CV_ENG.md;Dmitriy+%C2%B7+Python+%2F+Rust;backend+%2F+fullstack+%C2%B7+15+years" alt="typing"/>
 
 <br/>
 
-[![Telegram](https://img.shields.io/badge/Telegram-@lightclove-0d1117?style=for-the-badge&logo=telegram&logoColor=00f0ff&labelColor=ff2d95)](https://t.me/lightclove)
-[![GitHub](https://img.shields.io/badge/GitHub-lightclove-0d1117?style=for-the-badge&logo=github&logoColor=ff2d95&labelColor=00f0ff)](https://github.com/lightclove)
-[![Email](https://img.shields.io/badge/Email-dm.ilyushko@gmail.com-0d1117?style=for-the-badge&logo=gmail&logoColor=39ff14&labelColor=0d1117)](mailto:dm.ilyushko@gmail.com)
+[![Telegram](https://img.shields.io/badge/Telegram-@lightclove-0d1117?style=for-the-badge&logo=telegram&logoColor=38BDF8&labelColor=38BDF8)](https://t.me/lightclove)
+[![GitHub](https://img.shields.io/badge/GitHub-lightclove-0d1117?style=for-the-badge&logo=github&logoColor=818CF8&labelColor=818CF8)](https://github.com/lightclove)
+[![Email](https://img.shields.io/badge/Email-dm.ilyushko@gmail.com-0d1117?style=for-the-badge&logo=gmail&logoColor=94A3B8&labelColor=0d1117)](mailto:dm.ilyushko@gmail.com)
 
-<img src="./assets/status-online.svg" alt="online"/>
+<img src="https://raw.githubusercontent.com/lightclove/lightclove/main/assets/status-online.svg" alt="online"/>
 
-<img src="./assets/comedy-ticker.svg" width="95%" alt="jokes"/>
+<img src="https://raw.githubusercontent.com/lightclove/lightclove/main/assets/comedy-ticker.svg" width="95%" alt="jokes"/>
 
-<img src="./assets/divider-scan.svg" width="100%" alt="scan"/>
+<img src="https://raw.githubusercontent.com/lightclove/lightclove/main/assets/divider-scan.svg" width="100%" alt="scan"/>
 
 **Saint Petersburg** · remote / hybrid · full-time · **15 years**
 
@@ -22,9 +22,9 @@
 > In **Rust** — networking clients and Telegram bots: from idea to compact releases for Windows, Linux, and Android.  
 > <sub>`meetings=404` · `coffee_sla=99.9%` · `bugs→features++`</sub>
 
-[![RU](https://img.shields.io/badge/switch-CV_RUS-0d1117?style=for-the-badge&labelColor=ff2d95&color=00f0ff)](./CV_RUS.md)
-[![HOME](https://img.shields.io/badge/home-README-0d1117?style=for-the-badge&labelColor=00f0ff&color=39ff14)](./README.md)
-![wotm](https://img.shields.io/badge/Works_on_my_machine-certified-0d1117?style=for-the-badge&labelColor=39ff14)
+[![RU](https://img.shields.io/badge/switch-CV_RUS-0d1117?style=for-the-badge&labelColor=38BDF8&color=38BDF8)](./CV_RUS.md)
+[![HOME](https://img.shields.io/badge/home-README-0d1117?style=for-the-badge&labelColor=818CF8&color=64748B)](./README.md)
+![wotm](https://img.shields.io/badge/Works_on_my_machine-certified-0d1117?style=for-the-badge&labelColor=64748B)
 
 </div>
 
@@ -36,13 +36,13 @@
 
 <div align="center">
 
-![Python](https://img.shields.io/badge/Python-0d1117?style=for-the-badge&logo=python&logoColor=00f0ff)
-![FastAPI](https://img.shields.io/badge/FastAPI-0d1117?style=for-the-badge&logo=fastapi&logoColor=39ff14)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-0d1117?style=for-the-badge&logo=postgresql&logoColor=00f0ff)
-![Docker](https://img.shields.io/badge/Docker-0d1117?style=for-the-badge&logo=docker&logoColor=00f0ff)
-![Linux](https://img.shields.io/badge/Linux-0d1117?style=for-the-badge&logo=linux&logoColor=ff2d95)
-![Rust](https://img.shields.io/badge/Rust-0d1117?style=for-the-badge&logo=rust&logoColor=ff2d95)
-![C++](https://img.shields.io/badge/C++-0d1117?style=for-the-badge&logo=cplusplus&logoColor=39ff14)
+![Python](https://img.shields.io/badge/Python-0d1117?style=for-the-badge&logo=python&logoColor=38BDF8)
+![FastAPI](https://img.shields.io/badge/FastAPI-0d1117?style=for-the-badge&logo=fastapi&logoColor=94A3B8)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-0d1117?style=for-the-badge&logo=postgresql&logoColor=38BDF8)
+![Docker](https://img.shields.io/badge/Docker-0d1117?style=for-the-badge&logo=docker&logoColor=38BDF8)
+![Linux](https://img.shields.io/badge/Linux-0d1117?style=for-the-badge&logo=linux&logoColor=818CF8)
+![Rust](https://img.shields.io/badge/Rust-0d1117?style=for-the-badge&logo=rust&logoColor=818CF8)
+![C++](https://img.shields.io/badge/C++-0d1117?style=for-the-badge&logo=cplusplus&logoColor=94A3B8)
 
 `Python · FastAPI · PostgreSQL · Docker · Linux · Rust · C++`
 
@@ -216,7 +216,7 @@ FastAPI proxy between 1C and LM Studio: normalize 1C→OpenAI API requests, TDD,
 
 **Emperor Alexander I St. Petersburg State Transport University (PGUPS)**, 2009 · applied mathematics and informatics (mathematician, systems programmer)
 
-<img src="./assets/divider-scan.svg" width="100%" alt="scan"/>
+<img src="https://raw.githubusercontent.com/lightclove/lightclove/main/assets/divider-scan.svg" width="100%" alt="scan"/>
 
 `// end of transmission — CV_ENG · DNS not blamed this time`
 

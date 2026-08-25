@@ -1,18 +1,16 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="900" height="70" viewBox="0 0 900 70">
-  <rect width="900" height="70" rx="8" fill="#070b12" stroke="#39FF14" stroke-width="1"/>
-  <text x="20" y="28" font-family="Consolas, monospace" font-size="12" fill="#39FF14">COMEDY.SYS // rotating engineering wisdom</text>
-  <g font-family="Consolas, monospace" font-size="14" fill="#00F0FF">
-    <text x="20" y="52" opacity="0">
-      production = staging + confidence + prayer
-      <animate attributeName="opacity" values="0;1;1;0;0;0" dur="12s" repeatCount="indefinite"/>
-    </text>
-    <text x="20" y="52" opacity="0">
-      It compiles? Ship it. Tests green? Even better.
-      <animate attributeName="opacity" values="0;0;0;1;1;0" dur="12s" repeatCount="indefinite"/>
-    </text>
-    <text x="20" y="52" opacity="0">
-      Microservices: distributed monolith with better slides
-      <animate attributeName="opacity" values="0;0;0;0;0;1;1;0;0;0;0;0" dur="12s" keyTimes="0;0;0;0;0.66;0.68;0.9;0.92;1;1;1;1" repeatCount="indefinite"/>
-    </text>
-  </g>
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="64" viewBox="0 0 860 64">
+  <rect width="860" height="64" rx="8" fill="#0B1220" stroke="#334155"/>
+  <text x="16" y="22" font-family="ui-monospace, Consolas, monospace" font-size="11" fill="#64748B">COMEDY.SYS</text>
+  <text x="16" y="44" font-family="ui-monospace, Consolas, monospace" font-size="13" fill="#67E8F9">
+    production = staging + confidence + prayer
+    <animate attributeName="opacity" values="1;1;0;0;0;0" keyTimes="0;0.28;0.33;0.66;0.66;1" dur="12s" repeatCount="indefinite"/>
+  </text>
+  <text x="16" y="44" font-family="ui-monospace, Consolas, monospace" font-size="13" fill="#67E8F9">
+    It compiles? Ship it. Tests green? Even better.
+    <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.33;0.38;0.61;0.66;1" dur="12s" repeatCount="indefinite"/>
+  </text>
+  <text x="16" y="44" font-family="ui-monospace, Consolas, monospace" font-size="13" fill="#67E8F9">
+    Microservices: distributed monolith with better slides
+    <animate attributeName="opacity" values="0;0;0;0;1;1" keyTimes="0;0.66;0.66;0.66;0.71;1" dur="12s" repeatCount="indefinite"/>
+  </text>
 </svg>

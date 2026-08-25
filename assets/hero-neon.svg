@@ -1,103 +1,57 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340" role="img" aria-label="LIGHTCLOVE neon hero">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img">
   <defs>
-    <linearGradient id="neonGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#00F0FF">
-        <animate attributeName="stop-color" values="#00F0FF;#FF2D95;#B026FF;#39FF14;#00F0FF" dur="8s" repeatCount="indefinite"/>
-      </stop>
-      <stop offset="50%" stop-color="#FF2D95">
-        <animate attributeName="stop-color" values="#FF2D95;#B026FF;#39FF14;#00F0FF;#FF2D95" dur="8s" repeatCount="indefinite"/>
-      </stop>
-      <stop offset="100%" stop-color="#B026FF">
-        <animate attributeName="stop-color" values="#B026FF;#39FF14;#00F0FF;#FF2D95;#B026FF" dur="8s" repeatCount="indefinite"/>
-      </stop>
+    <linearGradient id="g" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38BDF8"/>
+      <stop offset="50%" stop-color="#818CF8"/>
+      <stop offset="100%" stop-color="#22D3EE"/>
     </linearGradient>
-    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
-      <feGaussianBlur stdDeviation="4" result="b"/>
-      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
-    </filter>
-    <filter id="glitchBlur"><feGaussianBlur stdDeviation="0.6"/></filter>
-    <clipPath id="frame"><rect x="0" y="0" width="1200" height="340" rx="12"/></clipPath>
   </defs>
+  <rect width="1200" height="320" rx="14" fill="#0B1220"/>
+  <rect x="1" y="1" width="1198" height="318" rx="13" fill="none" stroke="#1E293B" stroke-width="2"/>
+  <rect x="10" y="10" width="1180" height="300" rx="10" fill="none" stroke="#38BDF8" stroke-opacity="0.35" stroke-width="1">
+    <animate attributeName="stroke-opacity" values="0.2;0.55;0.2" dur="3s" repeatCount="indefinite"/>
+  </rect>
 
-  <g clip-path="url(#frame)">
-    <rect width="1200" height="340" fill="#070b12"/>
-
-    <g stroke="#00F0FF" stroke-opacity="0.08" stroke-width="1">
-      <path d="M0 40 H1200 M0 80 H1200 M0 120 H1200 M0 160 H1200 M0 200 H1200 M0 240 H1200 M0 280 H1200 M0 320 H1200"/>
-      <path d="M40 0 V340 M80 0 V340 M120 0 V340 M160 0 V340 M200 0 V340 M240 0 V340 M280 0 V340 M320 0 V340 M360 0 V340 M400 0 V340 M440 0 V340 M480 0 V340 M520 0 V340 M560 0 V340 M600 0 V340 M640 0 V340 M680 0 V340 M720 0 V340 M760 0 V340 M800 0 V340 M840 0 V340 M880 0 V340 M920 0 V340 M960 0 V340 M1000 0 V340 M1040 0 V340 M1080 0 V340 M1120 0 V340 M1160 0 V340"/>
-    </g>
-
-    <g stroke="#39FF14" stroke-width="1.5" stroke-opacity="0.35">
-      <line x1="90" y1="-40" x2="90" y2="40"><animate attributeName="y1" values="-40;380" dur="2.4s" repeatCount="indefinite"/><animate attributeName="y2" values="40;460" dur="2.4s" repeatCount="indefinite"/></line>
-      <line x1="210" y1="-40" x2="210" y2="50"><animate attributeName="y1" values="-40;380" dur="3.1s" begin="0.4s" repeatCount="indefinite"/><animate attributeName="y2" values="50;470" dur="3.1s" begin="0.4s" repeatCount="indefinite"/></line>
-      <line x1="380" y1="-40" x2="380" y2="30"><animate attributeName="y1" values="-40;380" dur="2.2s" begin="0.8s" repeatCount="indefinite"/><animate attributeName="y2" values="30;450" dur="2.2s" begin="0.8s" repeatCount="indefinite"/></line>
-      <line x1="540" y1="-40" x2="540" y2="55"><animate attributeName="y1" values="-40;380" dur="2.8s" begin="0.2s" repeatCount="indefinite"/><animate attributeName="y2" values="55;475" dur="2.8s" begin="0.2s" repeatCount="indefinite"/></line>
-      <line x1="710" y1="-40" x2="710" y2="35"><animate attributeName="y1" values="-40;380" dur="2.5s" begin="1s" repeatCount="indefinite"/><animate attributeName="y2" values="35;455" dur="2.5s" begin="1s" repeatCount="indefinite"/></line>
-      <line x1="880" y1="-40" x2="880" y2="45"><animate attributeName="y1" values="-40;380" dur="3.3s" begin="0.6s" repeatCount="indefinite"/><animate attributeName="y2" values="45;465" dur="3.3s" begin="0.6s" repeatCount="indefinite"/></line>
-      <line x1="1040" y1="-40" x2="1040" y2="40"><animate attributeName="y1" values="-40;380" dur="2.1s" begin="1.2s" repeatCount="indefinite"/><animate attributeName="y2" values="40;460" dur="2.1s" begin="1.2s" repeatCount="indefinite"/></line>
-      <line x1="1150" y1="-40" x2="1150" y2="50"><animate attributeName="y1" values="-40;380" dur="2.7s" begin="0.3s" repeatCount="indefinite"/><animate attributeName="y2" values="50;470" dur="2.7s" begin="0.3s" repeatCount="indefinite"/></line>
-    </g>
-
-    <rect x="0" y="0" width="1200" height="28" fill="url(#neonGrad)" opacity="0.22">
-      <animate attributeName="y" values="-28;340" dur="3.5s" repeatCount="indefinite"/>
-    </rect>
-
-    <rect x="8" y="8" width="1184" height="324" rx="10" fill="none" stroke="url(#neonGrad)" stroke-width="2" filter="url(#glow)">
-      <animate attributeName="stroke-opacity" values="0.4;1;0.4" dur="2.2s" repeatCount="indefinite"/>
-    </rect>
-
-    <text x="600" y="130" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="72" font-weight="700" fill="#FF2D95" opacity="0.55" filter="url(#glitchBlur)">
-      LIGHTCLOVE
-      <animate attributeName="x" values="600;608;594;600" dur="0.35s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="0.15;0.55;0.1;0.4;0.15" dur="1.8s" repeatCount="indefinite"/>
-    </text>
-    <text x="600" y="130" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="72" font-weight="700" fill="#00F0FF" opacity="0.45" filter="url(#glitchBlur)">
-      LIGHTCLOVE
-      <animate attributeName="x" values="600;592;606;600" dur="0.4s" begin="0.1s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="0.1;0.5;0.12;0.35;0.1" dur="2s" repeatCount="indefinite"/>
-    </text>
-    <text x="600" y="130" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="72" font-weight="700" fill="url(#neonGrad)" filter="url(#glow)">LIGHTCLOVE</text>
-
-    <text x="600" y="178" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="20" fill="#39FF14" letter-spacing="3">
-      PYTHON / RUST | BACKEND / FULLSTACK
-      <animate attributeName="opacity" values="0.55;1;0.55" dur="2.4s" repeatCount="indefinite"/>
-    </text>
-
-    <text x="600" y="215" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="15" fill="#00F0FF">
-      &gt; boot OK | neon_core=ONLINE | caffeine=CRITICAL | ego.size &gt; binary.size
-      <animate attributeName="opacity" values="0.45;1;0.45" dur="1.8s" repeatCount="indefinite"/>
-    </text>
-
-    <!-- rotating joke ticker (4 slots x 4s) -->
-    <g font-family="Consolas, monospace" font-size="13" fill="#FF2D95">
-      <text x="600" y="255" text-anchor="middle">
-        [joke] works on my machine (tm) -- shipped as Docker
-        <animate attributeName="opacity" values="1;1;0;0;0;0;0;0" keyTimes="0;0.22;0.25;0.5;0.5;0.75;0.75;1" dur="16s" repeatCount="indefinite"/>
-      </text>
-      <text x="600" y="255" text-anchor="middle">
-        [joke] RAG = Retrieval-Augmented Guessing (with citations!)
-        <animate attributeName="opacity" values="0;0;1;1;0;0;0;0" keyTimes="0;0.25;0.28;0.47;0.5;0.75;0.75;1" dur="16s" repeatCount="indefinite"/>
-      </text>
-      <text x="600" y="255" text-anchor="middle">
-        [joke] Rust: fearless concurrency / fearful of borrow checker
-        <animate attributeName="opacity" values="0;0;0;0;1;1;0;0" keyTimes="0;0.5;0.5;0.5;0.53;0.72;0.75;1" dur="16s" repeatCount="indefinite"/>
-      </text>
-      <text x="600" y="255" text-anchor="middle">
-        [joke] 0 TODOs left -- renamed them all to FIXME
-        <animate attributeName="opacity" values="0;0;0;0;0;0;1;1" keyTimes="0;0.75;0.75;0.75;0.75;0.75;0.78;1" dur="16s" repeatCount="indefinite"/>
-      </text>
-    </g>
-
-    <g fill="none" stroke="#00F0FF" stroke-width="2">
-      <path d="M24 48 V24 H48"/>
-      <path d="M1176 48 V24 H1152"/>
-      <path d="M24 292 V316 H48"/>
-      <path d="M1176 292 V316 H1152"/>
-    </g>
-    <circle cx="40" cy="40" r="4" fill="#39FF14">
-      <animate attributeName="opacity" values="1;0.2;1" dur="1s" repeatCount="indefinite"/>
-    </circle>
-    <text x="56" y="44" font-family="Consolas, monospace" font-size="12" fill="#39FF14">LINK LIVE (mostly)</text>
-    <text x="900" y="44" font-family="Consolas, monospace" font-size="11" fill="#B026FF">bugs=features++</text>
+  <!-- subtle grid -->
+  <g stroke="#38BDF8" stroke-opacity="0.06" stroke-width="1">
+    <path d="M0 64 H1200 M0 128 H1200 M0 192 H1200 M0 256 H1200"/>
+    <path d="M150 0 V320 M300 0 V320 M450 0 V320 M600 0 V320 M750 0 V320 M900 0 V320 M1050 0 V320"/>
   </g>
+
+  <!-- scan beam -->
+  <rect x="0" width="1200" height="18" fill="#38BDF8" opacity="0.08">
+    <animate attributeName="y" values="0;302;0" dur="6s" repeatCount="indefinite"/>
+  </rect>
+
+  <text x="600" y="125" text-anchor="middle" font-family="ui-monospace, Consolas, monospace" font-size="64" font-weight="700" fill="#38BDF8">LIGHTCLOVE</text>
+  <text x="603" y="125" text-anchor="middle" font-family="ui-monospace, Consolas, monospace" font-size="64" font-weight="700" fill="#818CF8" opacity="0.35">
+    LIGHTCLOVE
+    <animate attributeName="opacity" values="0.15;0.4;0.15" dur="2.5s" repeatCount="indefinite"/>
+  </text>
+
+  <text x="600" y="170" text-anchor="middle" font-family="ui-monospace, Consolas, monospace" font-size="18" fill="#94A3B8" letter-spacing="2">
+    PYTHON / RUST  |  BACKEND / FULLSTACK
+  </text>
+  <text x="600" y="210" text-anchor="middle" font-family="ui-monospace, Consolas, monospace" font-size="14" fill="#67E8F9">
+    &gt; boot OK  |  neon_core=ONLINE  |  caffeine=CRITICAL
+    <animate attributeName="opacity" values="0.55;1;0.55" dur="2s" repeatCount="indefinite"/>
+  </text>
+  <text x="600" y="250" text-anchor="middle" font-family="ui-monospace, Consolas, monospace" font-size="13" fill="#A5B4FC">
+    [joke] works on my machine (tm) -- shipped as Docker
+    <animate attributeName="opacity" values="1;1;0;0;0;0" keyTimes="0;0.28;0.33;0.66;0.66;1" dur="12s" repeatCount="indefinite"/>
+  </text>
+  <text x="600" y="250" text-anchor="middle" font-family="ui-monospace, Consolas, monospace" font-size="13" fill="#A5B4FC">
+    [joke] RAG = Retrieval-Augmented Guessing (with citations)
+    <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.33;0.38;0.61;0.66;1" dur="12s" repeatCount="indefinite"/>
+  </text>
+  <text x="600" y="250" text-anchor="middle" font-family="ui-monospace, Consolas, monospace" font-size="13" fill="#A5B4FC">
+    [joke] Rust: fearless concurrency / fearful of borrow checker
+    <animate attributeName="opacity" values="0;0;0;0;1;1" keyTimes="0;0.66;0.66;0.66;0.71;1" dur="12s" repeatCount="indefinite"/>
+  </text>
+
+  <circle cx="36" cy="36" r="5" fill="#34D399">
+    <animate attributeName="opacity" values="1;0.3;1" dur="1.2s" repeatCount="indefinite"/>
+  </circle>
+  <text x="50" y="40" font-family="ui-monospace, Consolas, monospace" font-size="12" fill="#34D399">LINK LIVE</text>
+  <text x="980" y="40" font-family="ui-monospace, Consolas, monospace" font-size="11" fill="#64748B">bugs=features++</text>
 </svg>

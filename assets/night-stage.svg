@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="160" viewBox="0 0 1200 160">
+  <!-- full-width dark plate: simulates neon stage on GitHub's white page -->
+  <rect width="1200" height="160" fill="#0B1220"/>
+  <rect y="0" width="1200" height="2" fill="#38BDF8" opacity="0.5">
+    <animate attributeName="opacity" values="0.25;0.7;0.25" dur="2.5s" repeatCount="indefinite"/>
+  </rect>
+  <rect y="158" width="1200" height="2" fill="#818CF8" opacity="0.4"/>
+  <text x="600" y="70" text-anchor="middle" font-family="ui-monospace, Consolas, monospace" font-size="16" fill="#94A3B8">
+    GITHUB PAGE BG = SYSTEM DEFAULT  |  NEON STAGE = THIS PANEL
+  </text>
+  <text x="600" y="100" text-anchor="middle" font-family="ui-monospace, Consolas, monospace" font-size="13" fill="#67E8F9">
+    (we can't recolor github.com -- so we bring our own night sky)
+    <animate attributeName="opacity" values="0.5;1;0.5" dur="2s" repeatCount="indefinite"/>
+  </text>
+</svg>

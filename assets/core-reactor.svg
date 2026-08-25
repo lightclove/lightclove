@@ -1,31 +1,21 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="280" height="290" viewBox="0 0 280 290">
-  <rect width="280" height="290" fill="#070b12"/>
-  <g transform="translate(140,130)" fill="none" stroke-width="2">
-    <circle r="110" stroke="#00F0FF" stroke-opacity="0.25"/>
-    <circle r="85" stroke="#FF2D95" stroke-opacity="0.35">
-      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="12s" repeatCount="indefinite"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="260" height="260" viewBox="0 0 260 260">
+  <rect width="260" height="260" rx="12" fill="#0B1220"/>
+  <g transform="translate(130,120)" fill="none" stroke-width="2">
+    <circle r="95" stroke="#1E293B"/>
+    <circle r="72" stroke="#38BDF8" stroke-opacity="0.45">
+      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="14s" repeatCount="indefinite"/>
     </circle>
-    <circle r="60" stroke="#39FF14" stroke-opacity="0.45" stroke-dasharray="8 10">
-      <animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="7s" repeatCount="indefinite"/>
+    <circle r="48" stroke="#818CF8" stroke-opacity="0.55" stroke-dasharray="6 8">
+      <animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="9s" repeatCount="indefinite"/>
     </circle>
-    <circle r="30" stroke="#B026FF" stroke-opacity="0.7">
-      <animate attributeName="r" values="24;34;24" dur="2s" repeatCount="indefinite"/>
-    </circle>
-    <circle r="8" fill="#00F0FF" stroke="none">
-      <animate attributeName="opacity" values="1;0.3;1" dur="1s" repeatCount="indefinite"/>
+    <circle r="8" fill="#38BDF8" stroke="none">
+      <animate attributeName="opacity" values="1;0.4;1" dur="1.2s" repeatCount="indefinite"/>
     </circle>
     <g>
-      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="5s" repeatCount="indefinite"/>
-      <circle cx="85" cy="0" r="5" fill="#FF2D95"/>
-    </g>
-    <g>
-      <animateTransform attributeName="transform" type="rotate" from="0" to="-360" dur="8s" repeatCount="indefinite"/>
-      <circle cx="60" cy="0" r="4" fill="#39FF14"/>
+      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="6s" repeatCount="indefinite"/>
+      <circle cx="72" cy="0" r="4" fill="#818CF8"/>
     </g>
   </g>
-  <text x="140" y="255" text-anchor="middle" font-family="Consolas, monospace" font-size="12" fill="#00F0FF">CORE REACTOR</text>
-  <text x="140" y="275" text-anchor="middle" font-family="Consolas, monospace" font-size="10" fill="#FF2D95">
-    powered by coffee + spite
-    <animate attributeName="opacity" values="0.4;1;0.4" dur="2s" repeatCount="indefinite"/>
-  </text>
+  <text x="130" y="235" text-anchor="middle" font-family="ui-monospace, Consolas, monospace" font-size="11" fill="#94A3B8">CORE REACTOR</text>
+  <text x="130" y="250" text-anchor="middle" font-family="ui-monospace, Consolas, monospace" font-size="9" fill="#64748B">coffee + spite</text>
 </svg>
