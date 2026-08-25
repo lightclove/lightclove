@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-label="LIGHTCLOVE neon hero">
+  <defs>
+    <linearGradient id="neonGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00F0FF">
+        <animate attributeName="stop-color" values="#00F0FF;#FF2D95;#B026FF;#39FF14;#00F0FF" dur="8s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="50%" stop-color="#FF2D95">
+        <animate attributeName="stop-color" values="#FF2D95;#B026FF;#39FF14;#00F0FF;#FF2D95" dur="8s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" stop-color="#B026FF">
+        <animate attributeName="stop-color" values="#B026FF;#39FF14;#00F0FF;#FF2D95;#B026FF" dur="8s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="4" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="glitchBlur">
+      <feGaussianBlur stdDeviation="0.6"/>
+    </filter>
+    <clipPath id="frame"><rect x="0" y="0" width="1200" height="320" rx="12"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#frame)">
+    <rect width="1200" height="320" fill="#070b12"/>
+
+    <!-- grid -->
+    <g stroke="#00F0FF" stroke-opacity="0.08" stroke-width="1">
+      <path d="M0 40 H1200 M0 80 H1200 M0 120 H1200 M0 160 H1200 M0 200 H1200 M0 240 H1200 M0 280 H1200"/>
+      <path d="M40 0 V320 M80 0 V320 M120 0 V320 M160 0 V320 M200 0 V320 M240 0 V320 M280 0 V320 M320 0 V320 M360 0 V320 M400 0 V320 M440 0 V320 M480 0 V320 M520 0 V320 M560 0 V320 M600 0 V320 M640 0 V320 M680 0 V320 M720 0 V320 M760 0 V320 M800 0 V320 M840 0 V320 M880 0 V320 M920 0 V320 M960 0 V320 M1000 0 V320 M1040 0 V320 M1080 0 V320 M1120 0 V320 M1160 0 V320"/>
+    </g>
+
+    <!-- rain -->
+    <g stroke="#39FF14" stroke-width="1.5" stroke-opacity="0.35">
+      <line x1="90" y1="-40" x2="90" y2="40"><animate attributeName="y1" values="-40;360" dur="2.4s" repeatCount="indefinite"/><animate attributeName="y2" values="40;440" dur="2.4s" repeatCount="indefinite"/></line>
+      <line x1="210" y1="-40" x2="210" y2="50"><animate attributeName="y1" values="-40;360" dur="3.1s" begin="0.4s" repeatCount="indefinite"/><animate attributeName="y2" values="50;450" dur="3.1s" begin="0.4s" repeatCount="indefinite"/></line>
+      <line x1="380" y1="-40" x2="380" y2="30"><animate attributeName="y1" values="-40;360" dur="2.2s" begin="0.8s" repeatCount="indefinite"/><animate attributeName="y2" values="30;430" dur="2.2s" begin="0.8s" repeatCount="indefinite"/></line>
+      <line x1="540" y1="-40" x2="540" y2="55"><animate attributeName="y1" values="-40;360" dur="2.8s" begin="0.2s" repeatCount="indefinite"/><animate attributeName="y2" values="55;455" dur="2.8s" begin="0.2s" repeatCount="indefinite"/></line>
+      <line x1="710" y1="-40" x2="710" y2="35"><animate attributeName="y1" values="-40;360" dur="2.5s" begin="1s" repeatCount="indefinite"/><animate attributeName="y2" values="35;435" dur="2.5s" begin="1s" repeatCount="indefinite"/></line>
+      <line x1="880" y1="-40" x2="880" y2="45"><animate attributeName="y1" values="-40;360" dur="3.3s" begin="0.6s" repeatCount="indefinite"/><animate attributeName="y2" values="45;445" dur="3.3s" begin="0.6s" repeatCount="indefinite"/></line>
+      <line x1="1040" y1="-40" x2="1040" y2="40"><animate attributeName="y1" values="-40;360" dur="2.1s" begin="1.2s" repeatCount="indefinite"/><animate attributeName="y2" values="40;440" dur="2.1s" begin="1.2s" repeatCount="indefinite"/></line>
+      <line x1="1150" y1="-40" x2="1150" y2="50"><animate attributeName="y1" values="-40;360" dur="2.7s" begin="0.3s" repeatCount="indefinite"/><animate attributeName="y2" values="50;450" dur="2.7s" begin="0.3s" repeatCount="indefinite"/></line>
+    </g>
+
+    <!-- scanline -->
+    <rect x="0" y="0" width="1200" height="28" fill="url(#neonGrad)" opacity="0.22">
+      <animate attributeName="y" values="-28;320" dur="3.5s" repeatCount="indefinite"/>
+    </rect>
+
+    <!-- border pulse -->
+    <rect x="8" y="8" width="1184" height="304" rx="10" fill="none" stroke="url(#neonGrad)" stroke-width="2" filter="url(#glow)">
+      <animate attributeName="stroke-opacity" values="0.4;1;0.4" dur="2.2s" repeatCount="indefinite"/>
+    </rect>
+
+    <!-- glitch layers -->
+    <text x="600" y="145" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="72" font-weight="700" fill="#FF2D95" opacity="0.55" filter="url(#glitchBlur)" transform="translate(0,0)">
+      LIGHTCLOVE
+      <animate attributeName="x" values="600;608;594;600" dur="0.35s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.15;0.55;0.1;0.4;0.15" dur="1.8s" repeatCount="indefinite"/>
+    </text>
+    <text x="600" y="145" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="72" font-weight="700" fill="#00F0FF" opacity="0.45" filter="url(#glitchBlur)">
+      LIGHTCLOVE
+      <animate attributeName="x" values="600;592;606;600" dur="0.4s" begin="0.1s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.1;0.5;0.12;0.35;0.1" dur="2s" repeatCount="indefinite"/>
+    </text>
+    <text x="600" y="145" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="72" font-weight="700" fill="url(#neonGrad)" filter="url(#glow)">LIGHTCLOVE</text>
+
+    <text x="600" y="195" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="22" fill="#39FF14" letter-spacing="4">
+      PYTHON / RUST · BACKEND / FULLSTACK
+      <animate attributeName="opacity" values="0.55;1;0.55" dur="2.4s" repeatCount="indefinite"/>
+    </text>
+
+    <text x="600" y="240" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="16" fill="#00F0FF">
+      &gt; boot_sequence & OK · neon_core=ONLINE · uptime=15y
+      <animate attributeName="opacity" values="0.4;1;0.4" dur="1.6s" repeatCount="indefinite"/>
+    </text>
+
+    <!-- corner HUD -->
+    <g fill="none" stroke="#00F0FF" stroke-width="2">
+      <path d="M24 48 V24 H48"/>
+      <path d="M1176 48 V24 H1152"/>
+      <path d="M24 272 V296 H48"/>
+      <path d="M1176 272 V296 H1152"/>
+    </g>
+    <circle cx="40" cy="40" r="4" fill="#39FF14">
+      <animate attributeName="opacity" values="1;0.2;1" dur="1s" repeatCount="indefinite"/>
+    </circle>
+    <text x="56" y="44" font-family="Consolas, monospace" font-size="12" fill="#39FF14">LINK LIVE</text>
+  </g>
+</svg>

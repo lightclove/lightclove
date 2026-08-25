@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="120" viewBox="0 0 900 120">
+  <rect width="900" height="120" fill="#070b12"/>
+  <g font-family="Consolas, monospace" font-size="14">
+    <text x="24" y="32" fill="#00F0FF">&gt; init modules&</text>
+    <text x="24" y="56" fill="#39FF14">
+      [OK] python · fastapi · postgres · docker · linux · rust · c++
+      <animate attributeName="opacity" values="0.3;1;0.3" dur="2s" repeatCount="indefinite"/>
+    </text>
+    <text x="24" y="80" fill="#FF2D95">
+      [OK] rag · llm · tor · integrations · industrial protocols
+      <animate attributeName="opacity" values="0.3;1;0.3" dur="2s" begin="0.4s" repeatCount="indefinite"/>
+    </text>
+    <text x="24" y="104" fill="#B026FF">
+      READY_
+      <animate attributeName="opacity" values="1;0;1" dur="0.8s" repeatCount="indefinite"/>
+    </text>
+  </g>
+  <rect x="0" y="0" width="900" height="3" fill="#00F0FF" opacity="0.5">
+    <animate attributeName="y" values="0;117;0" dur="5s" repeatCount="indefinite"/>
+  </rect>
+</svg>

@@ -1,18 +1,59 @@
-# Дмитрий · Python / Rust · backend / fullstack
+<div align="center">
 
-[![Telegram](https://img.shields.io/badge/Telegram-@lightclove-26A5E4?style=flat&logo=telegram&logoColor=white)](https://t.me/lightclove)
-[![GitHub](https://img.shields.io/badge/GitHub-lightclove-181717?style=flat&logo=github&logoColor=white)](https://github.com/lightclove)
-[![Email](https://img.shields.io/badge/Email-dm.ilyushko@gmail.com-D14836?style=flat&logo=gmail&logoColor=white)](mailto:dm.ilyushko@gmail.com)
+<img src="./assets/hero-neon.svg" width="100%" alt="LIGHTCLOVE"/>
 
-Санкт-Петербург · удалёнка / гибрид · полная занятость · 15 лет
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=22&duration=2500&pause=700&color=FF2D95&center=true&vCenter=true&width=700&height=50&lines=%D0%A0%D0%95%D0%97%D0%AE%D0%9C%D0%95+%2F%2F+CV_RUS.md;%D0%94%D0%BC%D0%B8%D1%82%D1%80%D0%B8%D0%B9+%C2%B7+Python+%2F+Rust;%D0%B1%D0%B0%D0%BA%D0%B5%D0%BD%D0%B4+%2F+fullstack+%C2%B7+15+%D0%BB%D0%B5%D1%82" alt="typing"/>
 
-Инженер→backend→fullstack. API, интеграции, промышленные протоколы, телеком, поиск по документам. На Rust — сетевые клиенты и Telegram-боты: от идеи до компактного релиза под Windows, Linux и Android.
+<br/>
+
+[![Telegram](https://img.shields.io/badge/Telegram-@lightclove-0d1117?style=for-the-badge&logo=telegram&logoColor=00f0ff&labelColor=ff2d95)](https://t.me/lightclove)
+[![GitHub](https://img.shields.io/badge/GitHub-lightclove-0d1117?style=for-the-badge&logo=github&logoColor=ff2d95&labelColor=00f0ff)](https://github.com/lightclove)
+[![Email](https://img.shields.io/badge/Email-dm.ilyushko@gmail.com-0d1117?style=for-the-badge&logo=gmail&logoColor=39ff14&labelColor=0d1117)](mailto:dm.ilyushko@gmail.com)
+
+<img src="./assets/status-online.svg" alt="online"/>
+
+<img src="./assets/divider-scan.svg" width="100%" alt="scan"/>
+
+**Санкт-Петербург** · удалёнка / гибрид · полная занятость · **15 лет**
+
+> Инженер→backend→fullstack. API, интеграции, промышленные протоколы, телеком, поиск по документам.  
+> На **Rust** — сетевые клиенты и Telegram-боты: от идеи до компактного релиза под Windows, Linux и Android.
+
+[![EN](https://img.shields.io/badge/switch-CV_ENG-0d1117?style=for-the-badge&labelColor=00f0ff&color=ff2d95)](./CV_ENG.md)
+[![HOME](https://img.shields.io/badge/home-README-0d1117?style=for-the-badge&labelColor=ff2d95&color=39ff14)](./README.md)
+
+</div>
 
 ---
 
-## Опыт
+<details open>
+<summary><b>⚡ Стек</b></summary>
+<br/>
 
-**МСА** · Fullstack · 09.2025 — н.в.  
+<div align="center">
+
+![Python](https://img.shields.io/badge/Python-0d1117?style=for-the-badge&logo=python&logoColor=00f0ff)
+![FastAPI](https://img.shields.io/badge/FastAPI-0d1117?style=for-the-badge&logo=fastapi&logoColor=39ff14)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-0d1117?style=for-the-badge&logo=postgresql&logoColor=00f0ff)
+![Docker](https://img.shields.io/badge/Docker-0d1117?style=for-the-badge&logo=docker&logoColor=00f0ff)
+![Linux](https://img.shields.io/badge/Linux-0d1117?style=for-the-badge&logo=linux&logoColor=ff2d95)
+![Rust](https://img.shields.io/badge/Rust-0d1117?style=for-the-badge&logo=rust&logoColor=ff2d95)
+![C++](https://img.shields.io/badge/C++-0d1117?style=for-the-badge&logo=cplusplus&logoColor=39ff14)
+
+`Python · FastAPI · PostgreSQL · Docker · Linux · Rust · C++`
+
+</div>
+</details>
+
+---
+
+<details open>
+<summary><b>💼 Опыт — кликни сектор</b></summary>
+<br/>
+
+<details open>
+<summary><code>09.2025 → н.в.</code> <b>МСА</b> · Fullstack</summary>
+
 Корпоративная RAG-платформа для машиностроения (on-prem, NDA): поиск и чат по техдокументации. Архитектура, backend, frontend, внедрение в прод — от идеи до продакшена.
 
 - Пайплайн документов с нуля: загрузка PDF/DOCX, OCR сканов, извлечение текста, чанкинг, индекс.
@@ -23,8 +64,11 @@
 - Prod: Docker, Alembic, pytest, PostgreSQL, TFS/git, Kanban.
 
 `Python 3.13 · FastAPI · PostgreSQL · SQLAlchemy · Pydantic · sentence-transformers · FAISS · rank-bm25 · Qdrant · PyMuPDF · Tesseract · JavaScript · Docker · pytest`
+</details>
 
-**Nova Labs** · Python · 01–08.2025  
+<details>
+<summary><code>01–08.2025</code> <b>Nova Labs</b> · Python</summary>
+
 Два контракта.
 
 *Калибровка АСУТП (производство БЛА)*  
@@ -34,16 +78,22 @@
 ETL-сервер с нуля: выгрузка, трансформация, загрузка. REST FastAPI, валидация Pydantic, парсинг веб-источников (BeautifulSoup, Scrapy). Синхронизация 3 раза в сутки в проде.
 
 `Python · FastAPI · pymodbus · NATS · Alembic · Pydantic · Scrapy · Docker Compose`
+</details>
 
-**Awakari** · Backend/Go · 01–08.2024 · удалённо  
+<details>
+<summary><code>01–08.2024</code> <b>Awakari</b> · Backend/Go · удалённо</summary>
+
 Интеграционная шина на базе rss-bridge: автоматический сбор данных из соцсетей.
 
 - Telegram-бот на Go: мультиязычность, RSS-ленты (go-telegram-bot-api, gofeed, goi18n).
 - Деплой и масштабирование в Kubernetes.
 
 `Go · Python · Kubernetes · REST API`
+</details>
 
-**Неотех** · Python · 03–12.2023  
+<details>
+<summary><code>03–12.2023</code> <b>Неотех</b> · Python</summary>
+
 Стартап agrotech: телеметрия и управление автоматизированной тепличной установкой — датчики, приводы, тысячи одновременных подключений.
 
 - API-шлюз на FastAPI, нагруженные воркеры на Node.js.
@@ -53,8 +103,11 @@ ETL-сервер с нуля: выгрузка, трансформация, за
 - Несколько экземпляров сервисов в Docker Compose.
 
 `Python 3.11 · FastAPI · gRPC · Node.js · PostgreSQL · TimescaleDB · NATS · Docker Compose`
+</details>
 
-**НТЦ ПП** · ведущий / backend · 10.2021 — 03.2023  
+<details>
+<summary><code>10.2021 – 03.2023</code> <b>НТЦ ПП</b> · ведущий / backend</summary>
+
 Два направления: NMS/EMS и интеграция корпоративных систем.
 
 *Мониторинг телеком-оборудования*  
@@ -64,16 +117,21 @@ ETL-сервер с нуля: выгрузка, трансформация, за
 Маршрутизация и преобразование сообщений: биллинг, CRM, платежи, внешние API. У каждого микросервиса своя БД — изоляция сбоев. Архитектура, техдокументация, демо заказчику.
 
 `Python 3.10 · PostgreSQL · MongoDB · RabbitMQ · Dramatiq · Alembic · SNMP`
+</details>
 
-**Триколор** · разработчик / админ ЦОВ · 11.2020 — 10.2021  
+<details>
+<summary><code>11.2020 – 10.2021</code> <b>Триколор</b> · разработчик / админ ЦОВ</summary>
+
 Национальная спутниковая компания, омниканальный контакт-центр (~12,6 млн абонентов).
 
 - Разработка и поддержка платформы на Genesys: интеграции с чат-ботами и внешними системами.
 - VoIP-клиенты, новые модули, администрирование серверов.
 
 `Python 3.8 · Genesys Composer SDK · VoIP · REST API`
+</details>
 
-**2010–2020** · инженер-программист
+<details>
+<summary><code>2010–2020</code> <b>инженер-программист</b></summary>
 
 *Адмиралтейские верфи* · 2010–2012  
 Клиент-серверные приложения и БД для промышленного предприятия.  
@@ -94,59 +152,70 @@ CRM с нуля: учёт и автоматизация работ сервис�
 *Институт телекоммуникаций* · 2018–2020 · инженер-программист  
 ПО для интеллектуальных маршрутизаторов, мониторинговые сервисы для БЛА и телеком-систем.  
 `C++ · Python · SNMP · LLDP · Docker`
+</details>
+
+</details>
 
 ---
 
-## Проекты
+<details open>
+<summary><b>🛸 Проекты</b></summary>
+<br/>
 
-**rbot** · Rust · 08.2025 — н.в.  
-Telegram-бот учёта расходов: полная перепись Python→Rust в один static-бинарь (без tokio в своём коде). Postgres, Docker Alpine/musl, локальная Ollama (советы и разбор свободного ввода), polling Telegram через Tor на проде, деплой Windows→Arch, мониторинг слоёв и простоев.
+<details open>
+<summary><b>Rust</b></summary>
 
+**rbot** · 08.2025 — н.в.  
+Telegram-бот учёта расходов: полная перепись Python→Rust в один static-бинарь (без tokio в своём коде). Postgres, Docker Alpine/musl, локальная Ollama, polling Telegram через Tor на проде, деплой Windows→Arch, мониторинг слоёв и простоев.  
 `Rust · PostgreSQL · Docker · ureq · serde · Ollama · musl`
 
-**rmalyk (Малык)** · Rust · 08.2025 — н.в.  
-Windows-клиент «Tor вместо VPN»: системный прокси (локальный HTTP→SOCKS Tor), официальный Expert Bundle, мосты obfs4 / snowflake / meek, автообновление движка и откат настроек. Ноль внешних crates — std + WinAPI FFI; релизный exe < 1 МБ.
-
+**rmalyk (Малык)** · 08.2025 — н.в.  
+Windows-клиент «Tor вместо VPN»: системный прокси (локальный HTTP→SOCKS Tor), Expert Bundle, мосты obfs4 / snowflake / meek, автообновление движка. Ноль внешних crates — std + WinAPI FFI; exe < 1 МБ.  
 `Rust · WinAPI · Tor · SOCKS5`
 
-**mmalyk** · Rust / Android · 08.2025 — н.в.  
-Мобильный порт Малыка: UI и нативный код на Rust (JNI/NDK), VpnService + TUN→Tor SOCKS, вшитые libtor / lyrebird в APK. Тот же стек мостов и компактной сборки (opt-z, fat LTO, strip); тонкий Java только там, где требует Android.
-
+**mmalyk** · 08.2025 — н.в.  
+Мобильный порт Малыка: UI и нативный код на Rust (JNI/NDK), VpnService + TUN→Tor SOCKS, вшитые libtor / lyrebird в APK.  
 `Rust · Android NDK · JNI · VpnService · Tor`
 
-**[AI_Docs_Generator](https://github.com/lightclove/AI_Docs_Generator)** · Python  
-RAG-чатбот по PDF через LM Studio: пайплайн документов, hybrid search / rerank, Qdrant, чат со ссылками на источники.
+**[MSA_Searcher_rust](https://github.com/lightclove/MSA_Searcher_rust)**  
+Поиск по каталогу файлов + чат с LLM: индекс метаданных, read-on-query, SPA UI, один `.exe`.  
+`Rust · JavaScript · LLM · SPA`
+</details>
 
+<details>
+<summary><b>Python</b></summary>
+
+**[AI_Docs_Generator](https://github.com/lightclove/AI_Docs_Generator)**  
+RAG-чатбот по PDF через LM Studio: пайплайн документов, hybrid search / rerank, Qdrant.  
 `Python 3.13 · FastAPI · Qdrant · LM Studio · RAG · pytest`
 
-**[Uniface](https://github.com/lightclove/Uniface)** · Python  
-Веб-сервер и браузер для входа по лицу: портал (ФИО, ИНН) → PIN Uniface → сессия; в 1С — служебный API без пароля пользователя. Liveness / антиспуф, интеграция с ERP.
-
+**[Uniface](https://github.com/lightclove/Uniface)**  
+Веб-сервер и браузер для входа по лицу: портал (ФИО, ИНН) → PIN Uniface → сессия; в 1С — служебный API. Liveness / антиспуф.  
 `Python · FastAPI · OpenCV · 1С · uvicorn`
 
-**[lightcloves_fin_bot](https://github.com/lightclove/lightcloves_fin_bot)** · Python  
-Telegram-бот учёта расходов (исходник для rbot): aiogram 3, PostgreSQL + asyncpg, Alembic, Docker Compose, pytest.
-
+**[lightcloves_fin_bot](https://github.com/lightclove/lightcloves_fin_bot)**  
+Telegram-бот учёта расходов (исходник для rbot): aiogram 3, PostgreSQL + asyncpg, Alembic, Docker Compose.  
 `Python · aiogram 3 · PostgreSQL · asyncpg · Alembic · Docker · pytest`
 
-**[MSA_Searcher_rust](https://github.com/lightclove/MSA_Searcher_rust)** · Rust  
-Поиск по каталогу файлов + чат с LLM: индекс метаданных, текст read-on-query, SPA UI, один `.exe` без интерпретатора.
-
-`Rust · JavaScript · LLM · SPA`
-
-**[LM_Studio_1C_Proxy](https://github.com/lightclove/LM_Studio_1C_Proxy)** · Python  
-Прокси FastAPI между 1С и LM Studio: нормализация запросов 1С→OpenAI API, TDD, анализ задержек локальной LLM на JSON из ERP.
-
+**[LM_Studio_1C_Proxy](https://github.com/lightclove/LM_Studio_1C_Proxy)**  
+Прокси FastAPI между 1С и LM Studio: нормализация 1С→OpenAI API, TDD, анализ задержек.  
 `Python · FastAPI · Pydantic · LM Studio · 1С · pytest`
+</details>
+
+</details>
 
 ---
 
-## Образование
+<div align="center">
+
+## 🎓 Образование
 
 **ПГУПС**, 2009 · прикладная математика и информатика (математик, системный программист)
 
----
+<img src="./assets/divider-scan.svg" width="100%" alt="scan"/>
 
-## Стек
+`// end of transmission — CV_RUS`
 
-Python · FastAPI · PostgreSQL · Docker · Linux · Rust · C++
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00F0FF,50:FF2D95,100:B026FF&height=90&section=footer&text=CV_RUS&fontSize=20&fontColor=070b12&fontAlignY=65" alt="footer"/>
+
+</div>
