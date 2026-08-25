@@ -135,29 +135,15 @@
 
 ---
 
-<details>
+<details open>
 <summary><b>signal.map</b></summary>
 <br/>
 
-```mermaid
-%%{init: {
-  "theme": "base",
-  "themeVariables": {
-    "primaryColor": "#F8FAFC",
-    "primaryTextColor": "#0F172A",
-    "primaryBorderColor": "#38BDF8",
-    "lineColor": "#94A3B8",
-    "secondaryColor": "#F1F5F9",
-    "tertiaryColor": "#E2E8F0",
-    "fontFamily": "ui-monospace, monospace"
-  }
-}}%%
-flowchart LR
-  A[IDEA] --> B[BUILD]
-  B --> C[SHIP]
-  C --> D[PROD]
-  D -.-> A
-```
+<div align="center">
+
+<img src="https://raw.githubusercontent.com/lightclove/lightclove/main/assets/signal-map.svg?v=75d00e3" width="100%" alt="signal map pipeline"/>
+
+</div>
 
 </details>
 
