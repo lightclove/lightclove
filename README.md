@@ -1,10 +1,10 @@
 
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&pause=1000&color=F75C7E&center=true&vCenter=true&width=700&lines=Loading+profile...;Welcome!;I'm+Dmitry+Iliyushko;Backend+Python+Engineer;System+Integrator;LLM+%26+AI+Enthusiast" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&pause=1000&color=F75C7E&center=true&vCenter=true&width=700&lines=Loading+profile...;Welcome!;I'm+Dmitry+Iliyushko;Backend+Python+%2F+Rust+Engineer;System+Integrator;LLM+%26+AI+Enthusiast" alt="Typing SVG" />
 </div>
 
 # Hi, I am Dmitry! 
-** Python Fullstack Engineer | System/AI/LLM Integrator **
+** Python / Rust Fullstack Engineer | System/AI/LLM Integrator **
 
 ---
 
@@ -12,6 +12,7 @@
 
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Rust](https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
 ![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)
 ![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
@@ -48,7 +49,7 @@
 ## **📋 Professional Summary**
 
 > Backend engineer with **10+ years** of experience in **system integration**, **industrial automation**, and **microservice architecture**.
-> I specialize in building scalable, high-performance solutions and integrating complex equipment. I'm passionate about solving business problems with clean, reliable code.
+> I specialize in building scalable, high-performance solutions and integrating complex equipment — including **Rust** networking clients and bots for Windows, Linux, and Android.
 
 ---
 

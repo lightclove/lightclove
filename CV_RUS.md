@@ -1,12 +1,12 @@
 # Дмитрий Ильюшко
 
-** Fullstack Python Engineer | AI/LLM/Системный интегратор**  
+** Fullstack Python / Rust Engineer | AI/LLM/Системный интегратор**  
 [![Telegram](https://img.shields.io/badge/Telegram-@lightclove-26A5E4?style=flat&logo=telegram&logoColor=white)](https://t.me/lightclove)
 [![GitHub](https://img.shields.io/badge/GitHub-lightclove-181717?style=flat&logo=github&logoColor=white)](https://github.com/lightclove)
 [![Email](https://img.shields.io/badge/Email-dm.ilyushko@gmail.com-D14836?style=flat&logo=gmail&logoColor=white)](mailto:dm.ilyushko@gmail.com)
 
 > **Более 10 лет** в бэкенд-разработке, системной интеграции и промышленной автоматизации.  
-> Специализация: **Python (FastAPI, asyncio)**, **микросервисы**, **LLM/RAG**, **низкоуровневые протоколы**.
+> Специализация: **Python (FastAPI, asyncio)**, **Rust** (сетевые клиенты, Telegram, Android/Windows), **микросервисы**, **LLM/RAG**, **низкоуровневые протоколы**.
 
 ---
 
@@ -14,12 +14,12 @@
 
 | Область | Технологии |
 |---------|------------|
-| **Языки** | Python, Go, C++, Java (core), Bash |
+| **Языки** | Python, Rust, Go, C++, Java (core), Bash |
 | **Фреймворки** | FastAPI, aiohttp, Celery, Dramatiq, gRPC |
 | **Брокеры / БД** | NATS, RabbitMQ · PostgreSQL, Oracle, MongoDB, ClickHouse, Qdrant |
-| **Протоколы** | Modbus (TCP/RTU), SNMP, LLDP, UART, RS‑232/485 |
-| **ОС и инфра** | Linux (Arch/Debian/Ubuntu/CentOS/Astra), Docker, Kubernetes, Git, pytest |
-| **AI/ML** | LLM, RAG, sentence‑transformers, PyTorch, OpenCV, YOLO |
+| **Протоколы** | Modbus (TCP/RTU), SNMP, LLDP, UART, RS‑232/485 · SOCKS5, Tor |
+| **ОС и инфра** | Linux (Arch/Debian/Ubuntu/CentOS/Astra), Docker, Kubernetes, Git, pytest · Android NDK/JNI |
+| **AI/ML** | LLM, RAG, sentence‑transformers, PyTorch, OpenCV, YOLO · Ollama |
 
 ---
 
@@ -54,6 +54,19 @@
 
 ---
 
+## Свои проекты (Rust)
+
+**rbot** — Telegram-бот учёта расходов (08.2025 – н.в.)  
+Полная перепись Python→Rust в один static-бинарь (без tokio в своём коде): Postgres, Docker Alpine/musl, локальная Ollama, polling Telegram через Tor на проде, деплой Windows→Arch, мониторинг слоёв.
+
+**rmalyk (Малык)** — Windows-клиент «Tor вместо VPN» (08.2025 – н.в.)  
+Системный прокси (HTTP→SOCKS Tor), официальный Expert Bundle, мосты obfs4 / snowflake / meek, автообновление движка. Ноль внешних crates — std + WinAPI FFI; релизный exe < 1 МБ.
+
+**mmalyk** — Android-порт Малыка (08.2025 – н.в.)  
+UI и нативный код на Rust (JNI/NDK), VpnService + TUN→Tor SOCKS, вшитые libtor / lyrebird в APK. Компактная сборка (opt-z, fat LTO, strip).
+
+---
+
 ## Образование
 
 **ПГУПС Императора Александра I**  
@@ -81,7 +94,7 @@
 
 ## Интересы
 
-LLM‑агенты, высоконагруженные системы, автоматизация, туризм, рыбалка, мото
+LLM‑агенты, Rust / systems programming, высоконагруженные системы, автоматизация, туризм, рыбалка, мото
 
 ---
 Telegram: [@lightclove](https://t.me/lightclove)

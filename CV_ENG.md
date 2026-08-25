@@ -1,12 +1,12 @@
 # Dmitriy Iliyushko
 
-** Backend Python Engineer | Fullstack | AI/System Integrator**  
+** Backend Python / Rust Engineer | Fullstack | AI/System Integrator**  
 [![Telegram](https://img.shields.io/badge/Telegram-@lightclove-26A5E4?style=flat&logo=telegram&logoColor=white)](https://t.me/lightclove)
 [![GitHub](https://img.shields.io/badge/GitHub-lightclove-181717?style=flat&logo=github&logoColor=white)](https://github.com/lightclove)
 [![Email](https://img.shields.io/badge/Email-dm.ilyushko@gmail.com-D14836?style=flat&logo=gmail&logoColor=white)](mailto:dm.ilyushko@gmail.com)
 
 > **10+ years** in backend development, system integration, and industrial automation.  
-> Specialise in **Python (FastAPI, asyncio)**, **microservices**, **LLM/RAG**, and **low‑level protocols**.
+> Specialise in **Python (FastAPI, asyncio)**, **Rust** (networking clients, Telegram, Android/Windows), **microservices**, **LLM/RAG**, and **low‑level protocols**.
 
 ---
 
@@ -14,12 +14,12 @@
 
 | Category | Technologies |
 |----------|--------------|
-| **Languages** | Python, Go, C++, Bash |
+| **Languages** | Python, Rust, Go, C++, Bash |
 | **Frameworks** | FastAPI, aiohttp, Celery, Dramatiq, gRPC |
 | **Brokers / DB** | NATS, RabbitMQ · PostgreSQL, Oracle, MongoDB, ClickHouse, Qdrant |
-| **Protocols** | Modbus (TCP/RTU), SNMP, LLDP, UART, RS‑232/485 |
-| **OS & Infra** | Linux (Arch/Debian/Ubuntu/CentOS/Astra), Docker, Kubernetes, Git, pytest |
-| **AI/ML** | LLM, RAG, sentence‑transformers, PyTorch, OpenCV, YOLO |
+| **Protocols** | Modbus (TCP/RTU), SNMP, LLDP, UART, RS‑232/485 · SOCKS5, Tor |
+| **OS & Infra** | Linux (Arch/Debian/Ubuntu/CentOS/Astra), Docker, Kubernetes, Git, pytest · Android NDK/JNI |
+| **AI/ML** | LLM, RAG, sentence‑transformers, PyTorch, OpenCV, YOLO · Ollama |
 
 ---
 
@@ -54,6 +54,19 @@
 
 ---
 
+## Side projects (Rust)
+
+**rbot** — Telegram personal expense tracker (08.2025 – present)  
+Full Python→Rust rewrite as a single static binary (no tokio in app code): Postgres, Docker Alpine/musl, local Ollama, Telegram polling over Tor in prod, Windows→Arch deploy, layer health monitoring.
+
+**rmalyk (Malyk)** — Windows “Tor instead of VPN” client (08.2025 – present)  
+System proxy (HTTP→SOCKS Tor), official Expert Bundle, obfs4 / snowflake / meek bridges, engine auto‑update. Zero external crates — std + WinAPI FFI; release exe < 1 MB.
+
+**mmalyk** — Android port of Malyk (08.2025 – present)  
+UI and native code in Rust (JNI/NDK), VpnService + TUN→Tor SOCKS, bundled libtor / lyrebird in the APK. Compact builds (opt-z, fat LTO, strip).
+
+---
+
 ## Education
 
 **Saint Petersburg State University of Railway Transport**  
@@ -79,9 +92,9 @@ Additional: Oracle SQL/PLSQL, C programming.
 
 ---
 
-## 🔍 Interests
+## Interests
 
-LLM agents, high‑load systems, industrial automation
+LLM agents, Rust / systems programming, high‑load systems, industrial automation
 
 ---
 
