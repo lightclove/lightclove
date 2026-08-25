@@ -114,6 +114,31 @@ Windows-клиент «Tor вместо VPN»: системный прокси (
 
 `Rust · Android NDK · JNI · VpnService · Tor`
 
+**[AI_Docs_Generator](https://github.com/lightclove/AI_Docs_Generator)** · Python  
+RAG-чатбот по PDF через LM Studio: пайплайн документов, hybrid search / rerank, Qdrant, чат со ссылками на источники.
+
+`Python 3.13 · FastAPI · Qdrant · LM Studio · RAG · pytest`
+
+**[Uniface](https://github.com/lightclove/Uniface)** · Python  
+Веб-сервер и браузер для входа по лицу: портал (ФИО, ИНН) → PIN Uniface → сессия; в 1С — служебный API без пароля пользователя. Liveness / антиспуф, интеграция с ERP.
+
+`Python · FastAPI · OpenCV · 1С · uvicorn`
+
+**[lightcloves_fin_bot](https://github.com/lightclove/lightcloves_fin_bot)** · Python  
+Telegram-бот учёта расходов (исходник для rbot): aiogram 3, PostgreSQL + asyncpg, Alembic, Docker Compose, pytest.
+
+`Python · aiogram 3 · PostgreSQL · asyncpg · Alembic · Docker · pytest`
+
+**[MSA_Searcher_rust](https://github.com/lightclove/MSA_Searcher_rust)** · Rust  
+Поиск по каталогу файлов + чат с LLM: индекс метаданных, текст read-on-query, SPA UI, один `.exe` без интерпретатора.
+
+`Rust · JavaScript · LLM · SPA`
+
+**[LM_Studio_1C_Proxy](https://github.com/lightclove/LM_Studio_1C_Proxy)** · Python  
+Прокси FastAPI между 1С и LM Studio: нормализация запросов 1С→OpenAI API, TDD, анализ задержек локальной LLM на JSON из ERP.
+
+`Python · FastAPI · Pydantic · LM Studio · 1С · pytest`
+
 ---
 
 ## Образование

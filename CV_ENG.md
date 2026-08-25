@@ -1,101 +1,153 @@
-# Dmitriy Iliyushko
+# Dmitriy · Python / Rust · backend / fullstack
 
-** Backend Python / Rust Engineer | Fullstack | AI/System Integrator**  
 [![Telegram](https://img.shields.io/badge/Telegram-@lightclove-26A5E4?style=flat&logo=telegram&logoColor=white)](https://t.me/lightclove)
 [![GitHub](https://img.shields.io/badge/GitHub-lightclove-181717?style=flat&logo=github&logoColor=white)](https://github.com/lightclove)
 [![Email](https://img.shields.io/badge/Email-dm.ilyushko@gmail.com-D14836?style=flat&logo=gmail&logoColor=white)](mailto:dm.ilyushko@gmail.com)
 
-> **10+ years** in backend development, system integration, and industrial automation.  
-> Specialise in **Python (FastAPI, asyncio)**, **Rust** (networking clients, Telegram, Android/Windows), **microservices**, **LLM/RAG**, and **low‑level protocols**.
+Saint Petersburg · remote / hybrid · full-time · 15 years
+
+Engineer→backend→fullstack. APIs, integrations, industrial protocols, telecom, document search. In Rust — networking clients and Telegram bots: from idea to compact releases for Windows, Linux, and Android.
 
 ---
 
-## Core Skills
+## Experience
 
-| Category | Technologies |
-|----------|--------------|
-| **Languages** | Python, Rust, Go, C++, Bash |
-| **Frameworks** | FastAPI, aiohttp, Celery, Dramatiq, gRPC |
-| **Brokers / DB** | NATS, RabbitMQ · PostgreSQL, Oracle, MongoDB, ClickHouse, Qdrant |
-| **Protocols** | Modbus (TCP/RTU), SNMP, LLDP, UART, RS‑232/485 · SOCKS5, Tor |
-| **OS & Infra** | Linux (Arch/Debian/Ubuntu/CentOS/Astra), Docker, Kubernetes, Git, pytest · Android NDK/JNI |
-| **AI/ML** | LLM, RAG, sentence‑transformers, PyTorch, OpenCV, YOLO · Ollama |
+**MSA** · Fullstack · 09.2025 — present  
+Corporate RAG platform for mechanical engineering (on-prem, NDA): search and chat over technical documentation. Architecture, backend, frontend, production rollout — idea to prod.
+
+- Document pipeline from scratch: PDF/DOCX upload, OCR for scans, text extraction, chunking, index.
+- Hybrid search (semantic + BM25), answers via local LLMs (Ollama, LM Studio) with source citations.
+- **400+ GB** archive index: redesigned schema (ChromaDB → Qdrant), embedding cache, incremental reindexing.
+- REST record-matching service for ERP: fuzzy search, duplicates and synonyms in master data.
+- JS SPA and admin: chat, file upload, citation view, roles, live indexing monitoring.
+- Prod: Docker, Alembic, pytest, PostgreSQL, TFS/git, Kanban.
+
+`Python 3.13 · FastAPI · PostgreSQL · SQLAlchemy · Pydantic · sentence-transformers · FAISS · rank-bm25 · Qdrant · PyMuPDF · Tesseract · JavaScript · Docker · pytest`
+
+**Nova Labs** · Python · 01–08.2025  
+Two contracts.
+
+*ASUTP calibration (UAV manufacturing)*  
+Calibration equipment control over Modbus TCP/RTU, calibration scenarios. FastAPI (start/stop, status, journal). Inter-service messaging via NATS, Docker Compose deploy (staging = prod at customer site).
+
+*1C data exchange*  
+ETL server from scratch: extract, transform, load. REST FastAPI, Pydantic validation, web scraping (BeautifulSoup, Scrapy). Synced 3× daily in production.
+
+`Python · FastAPI · pymodbus · NATS · Alembic · Pydantic · Scrapy · Docker Compose`
+
+**Awakari** · Backend/Go · 01–08.2024 · remote  
+Integration bus on rss-bridge: automated social-media data collection.
+
+- Telegram bot in Go: i18n, RSS feeds (go-telegram-bot-api, gofeed, goi18n).
+- Deploy and scale on Kubernetes.
+
+`Go · Python · Kubernetes · REST API`
+
+**Neotech** · Python · 03–12.2023  
+Agrotech startup: telemetry and control for an automated greenhouse — sensors, actuators, thousands of concurrent connections.
+
+- FastAPI gateway, Node.js workers under load.
+- gRPC (urgent calls) and NATS (event/command queues) between services.
+- PostgreSQL — directories; TimescaleDB — telemetry and logs.
+- Load tests: 5000+ req/s on control API, p99 < 50 ms.
+- Multiple service instances via Docker Compose.
+
+`Python 3.11 · FastAPI · gRPC · Node.js · PostgreSQL · TimescaleDB · NATS · Docker Compose`
+
+**NTC PP** · lead / backend · 10.2021 — 03.2023  
+Two tracks: NMS/EMS and corporate system integration.
+
+*Telecom equipment monitoring*  
+Device autodetection, SNMP / LLDP / ICMP polling (netsnmp, pysnmp). Flows via RabbitMQ, Dramatiq background jobs, PostgreSQL, Alembic.
+
+*Customer system integration*  
+Message routing and transformation: billing, CRM, payments, external APIs. Per-microservice databases — failure isolation. Architecture, tech docs, customer demos.
+
+`Python 3.10 · PostgreSQL · MongoDB · RabbitMQ · Dramatiq · Alembic · SNMP`
+
+**Tricolor** · developer / contact-center admin · 11.2020 — 10.2021  
+National satellite company, omnichannel contact center (~12.6M subscribers).
+
+- Genesys platform development and support: chatbot and external-system integrations.
+- VoIP clients, new modules, server administration.
+
+`Python 3.8 · Genesys Composer SDK · VoIP · REST API`
+
+**2010–2020** · software engineer
+
+*Admiralty Shipyards* · 2010–2012  
+Client–server apps and databases for an industrial enterprise.  
+`C++ · Qt · Oracle 9i · PL/SQL`
+
+*Complete* · 2012–2013 · analytics engineer  
+Hewlett Packard Project and Portfolio Management evolution.  
+`Oracle 11g`
+
+*Aviation and marine electronics* · 2013–2017 · software engineer  
+Network monitoring and control for industrial and telecom gear; Asterisk PBX development.  
+`Java · SNMP · Modbus · C++ · Python · PostgreSQL`
+
+*Rostec, Rubin Research Institute* · 2017–2018 · senior engineer  
+CRM from scratch: tracking and automating field-engineer work.  
+`Python · Django · PostgreSQL · RabbitMQ`
+
+*Institute of Telecommunications* · 2018–2020 · software engineer  
+Software for intelligent routers; monitoring services for UAVs and telecom systems.  
+`C++ · Python · SNMP · LLDP · Docker`
 
 ---
 
-## Selected Experience
+## Projects
 
-**AI Python Fullstack Developer** @  (09.2025 – present)  
-- Built an in‑house **RAG platform** for technical documentation (FastAPI + vanilla JS).  
-- Optimised LLM context with `tiktoken`, reduced errors; added embedding caching → search speed **x3**.  
-- Stack: Python 3.13, FastAPI, Qdrant, sentence‑transformers, OCR (Tesseract), LM Studio, Ollama.
+**rbot** · Rust · 08.2025 — present  
+Telegram expense tracker: full Python→Rust rewrite as one static binary (no tokio in app code). Postgres, Docker Alpine/musl, local Ollama (advice and free-form parsing), Telegram polling over Tor in prod, Windows→Arch deploy, layer and idle monitoring.
 
-**Python Developer** @ self‑employed (01.2025 – 08.2025)  
-- Developed **microservices** for UAV manufacturing automation: Modbus TCP/RTU calibration API.  
-- Created an **async ETL server** and integration bus for 1C (FastAPI, BeautifulSoup, Scrapy).
+`Rust · PostgreSQL · Docker · ureq · serde · Ollama · musl`
 
-**Backend Developer** @ New Zealand (01.2024 – 08.2024)  
-- Built social media integration via **rss‑bridge** on Go + Python; deployed on Kubernetes.  
-- Implemented multi‑language Telegram bot (gorilla/mux, gofeed, goi18n).
+**rmalyk (Malyk)** · Rust · 08.2025 — present  
+Windows “Tor instead of VPN” client: system proxy (local HTTP→SOCKS Tor), official Expert Bundle, obfs4 / snowflake / meek bridges, engine auto-update and settings rollback. Zero external crates — std + WinAPI FFI; release exe < 1 MB.
 
-**Backend Developer** @ Neotech (03.2023 – 12.2023)  
-- Designed a microservice system handling **5000+ RPS** (FastAPI, gRPC, PostgreSQL, ClickHouse).
+`Rust · WinAPI · Tor · SOCKS5`
 
-**Backend Developer** @ self‑employed (10.2021 – 03.2023)  
-- Integration bus for a major telecom operator: routing, data transformation, billing integration.  
-- R&D: **NMS/EMS** monitoring system (pysnmp, LLDP, RabbitMQ, Dramatiq) – moved processing from DB to middleware → performance boost.
+**mmalyk** · Rust / Android · 08.2025 — present  
+Android port of Malyk: UI and native code in Rust (JNI/NDK), VpnService + TUN→Tor SOCKS, bundled libtor / lyrebird in the APK. Same bridge stack and compact build (opt-z, fat LTO, strip); thin Java only where Android requires it.
 
-**System Administrator‑Developer** @ NSK(11.2020 – 10.2021)  
-- Maintained omnichannel system for **12.6M users**; integrated Genesys with VoIP and chatbots.
+`Rust · Android NDK · JNI · VpnService · Tor`
 
-**Engineer‑Programmer** (2010 – 2020)  
-- Various industrial & gov‑level projects: client‑server systems, network monitoring, UAV middleware.  
-- Tech: C++, Qt, Python, PostgreSQL, SNMP, Modbus.
+**[AI_Docs_Generator](https://github.com/lightclove/AI_Docs_Generator)** · Python  
+RAG chatbot over PDFs via LM Studio: document pipeline, hybrid search / rerank, Qdrant, chat with source citations.
 
----
+`Python 3.13 · FastAPI · Qdrant · LM Studio · RAG · pytest`
 
-## Side projects (Rust)
+**[Uniface](https://github.com/lightclove/Uniface)** · Python  
+Web server and browser for face-based login: portal (name, TIN) → Uniface PIN → session; 1C via service API without the user’s password. Liveness / anti-spoof, ERP integration.
 
-**rbot** — Telegram personal expense tracker (08.2025 – present)  
-Full Python→Rust rewrite as a single static binary (no tokio in app code): Postgres, Docker Alpine/musl, local Ollama, Telegram polling over Tor in prod, Windows→Arch deploy, layer health monitoring.
+`Python · FastAPI · OpenCV · 1C · uvicorn`
 
-**rmalyk (Malyk)** — Windows “Tor instead of VPN” client (08.2025 – present)  
-System proxy (HTTP→SOCKS Tor), official Expert Bundle, obfs4 / snowflake / meek bridges, engine auto‑update. Zero external crates — std + WinAPI FFI; release exe < 1 MB.
+**[lightcloves_fin_bot](https://github.com/lightclove/lightcloves_fin_bot)** · Python  
+Telegram expense bot (Python source for rbot): aiogram 3, PostgreSQL + asyncpg, Alembic, Docker Compose, pytest.
 
-**mmalyk** — Android port of Malyk (08.2025 – present)  
-UI and native code in Rust (JNI/NDK), VpnService + TUN→Tor SOCKS, bundled libtor / lyrebird in the APK. Compact builds (opt-z, fat LTO, strip).
+`Python · aiogram 3 · PostgreSQL · asyncpg · Alembic · Docker · pytest`
+
+**[MSA_Searcher_rust](https://github.com/lightclove/MSA_Searcher_rust)** · Rust  
+File-catalog search + LLM chat: metadata index, read-on-query text, SPA UI, single `.exe` with no interpreter.
+
+`Rust · JavaScript · LLM · SPA`
+
+**[LM_Studio_1C_Proxy](https://github.com/lightclove/LM_Studio_1C_Proxy)** · Python  
+FastAPI proxy between 1C and LM Studio: normalize 1C→OpenAI API requests, TDD, latency analysis for a local LLM on ERP JSON.
+
+`Python · FastAPI · Pydantic · LM Studio · 1C · pytest`
 
 ---
 
 ## Education
 
-**Saint Petersburg State University of Railway Transport**  
-*Applied Mathematics & Informatics* (2009)  
-Additional: Oracle SQL/PLSQL, C programming.
+**Emperor Alexander I St. Petersburg State Transport University (PGUPS)**, 2009 · applied mathematics and informatics (mathematician, systems programmer)
 
 ---
 
-## Methodologies & Soft Skills
+## Stack
 
-- Agile (Scrum/Kanban), ATDD/BDD, REST API design  
-- Technical documentation (ESPD)  
-- Team coordination, mentoring  
-
----
-
-## Languages
-
-| Language | Level |
-|----------|-------|
-| Russian  | Native |
-| English  | B1 (active, technical documentation) |
-
----
-
-## Interests
-
-LLM agents, Rust / systems programming, high‑load systems, industrial automation
-
----
-
-Telegram: [@lightclove](https://t.me/lightclove)
+Python · FastAPI · asyncio · PostgreSQL · MongoDB · Redis · SQLAlchemy · Pydantic · pytest  
+Rust · Docker · Linux · Git · RabbitMQ · NATS · gRPC · Modbus · SNMP · JavaScript · Go · C++ · Tor · Android NDK
