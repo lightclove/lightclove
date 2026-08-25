@@ -149,4 +149,4 @@ Telegram-бот учёта расходов (исходник для rbot): aiog
 
 ## Стек
 
-Python · FastAPI · PostgreSQL · Docker · Linux · Rust
+Python · FastAPI · PostgreSQL · Docker · Linux · Rust · C++

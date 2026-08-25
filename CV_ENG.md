@@ -149,4 +149,4 @@ FastAPI proxy between 1C and LM Studio: normalize 1C→OpenAI API requests, TDD,
 
 ## Stack
 
-Python · FastAPI · PostgreSQL · Docker · Linux · Rust
+Python · FastAPI · PostgreSQL · Docker · Linux · Rust · C++
