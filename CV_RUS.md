@@ -12,22 +12,26 @@
 
 <img src="./assets/status-online.svg" alt="online"/>
 
+<img src="./assets/comedy-ticker.svg" width="95%" alt="jokes"/>
+
 <img src="./assets/divider-scan.svg" width="100%" alt="scan"/>
 
 **Санкт-Петербург** · удалёнка / гибрид · полная занятость · **15 лет**
 
 > Инженер→backend→fullstack. API, интеграции, промышленные протоколы, телеком, поиск по документам.  
-> На **Rust** — сетевые клиенты и Telegram-боты: от идеи до компактного релиза под Windows, Linux и Android.
+> На **Rust** — сетевые клиенты и Telegram-боты: от идеи до компактного релиза под Windows, Linux и Android.  
+> <sub>`meetings=404` · `coffee_sla=99.9%` · `bugs→features++`</sub>
 
 [![EN](https://img.shields.io/badge/switch-CV_ENG-0d1117?style=for-the-badge&labelColor=00f0ff&color=ff2d95)](./CV_ENG.md)
 [![HOME](https://img.shields.io/badge/home-README-0d1117?style=for-the-badge&labelColor=ff2d95&color=39ff14)](./README.md)
+![wotm](https://img.shields.io/badge/Works_on_my_machine-certified-0d1117?style=for-the-badge&labelColor=39ff14)
 
 </div>
 
 ---
 
 <details open>
-<summary><b>⚡ Стек</b></summary>
+<summary><b>⚡ Стек</b> <code>// то, в чём признаюсь на собесе</code></summary>
 <br/>
 
 <div align="center">
@@ -48,7 +52,7 @@
 ---
 
 <details open>
-<summary><b>💼 Опыт — кликни сектор</b></summary>
+<summary><b>💼 Опыт — кликни сектор</b> <code>// спойлеры карьеры</code></summary>
 <br/>
 
 <details open>
@@ -159,7 +163,7 @@ CRM с нуля: учёт и автоматизация работ сервис�
 ---
 
 <details open>
-<summary><b>🛸 Проекты</b></summary>
+<summary><b>🛸 Проекты</b> <code>// сайдквесты, сбежавшие в прод</code></summary>
 <br/>
 
 <details open>
@@ -214,7 +218,7 @@ Telegram-бот учёта расходов (исходник для rbot): aiog
 
 <img src="./assets/divider-scan.svg" width="100%" alt="scan"/>
 
-`// end of transmission — CV_RUS`
+`// end of transmission — CV_RUS · DNS not blamed this time`
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00F0FF,50:FF2D95,100:B026FF&height=90&section=footer&text=CV_RUS&fontSize=20&fontColor=070b12&fontAlignY=65" alt="footer"/>
 

@@ -12,22 +12,26 @@
 
 <img src="./assets/status-online.svg" alt="online"/>
 
+<img src="./assets/comedy-ticker.svg" width="95%" alt="jokes"/>
+
 <img src="./assets/divider-scan.svg" width="100%" alt="scan"/>
 
 **Saint Petersburg** · remote / hybrid · full-time · **15 years**
 
 > Engineer→backend→fullstack. APIs, integrations, industrial protocols, telecom, document search.  
-> In **Rust** — networking clients and Telegram bots: from idea to compact releases for Windows, Linux, and Android.
+> In **Rust** — networking clients and Telegram bots: from idea to compact releases for Windows, Linux, and Android.  
+> <sub>`meetings=404` · `coffee_sla=99.9%` · `bugs→features++`</sub>
 
 [![RU](https://img.shields.io/badge/switch-CV_RUS-0d1117?style=for-the-badge&labelColor=ff2d95&color=00f0ff)](./CV_RUS.md)
 [![HOME](https://img.shields.io/badge/home-README-0d1117?style=for-the-badge&labelColor=00f0ff&color=39ff14)](./README.md)
+![wotm](https://img.shields.io/badge/Works_on_my_machine-certified-0d1117?style=for-the-badge&labelColor=39ff14)
 
 </div>
 
 ---
 
 <details open>
-<summary><b>⚡ Stack</b></summary>
+<summary><b>⚡ Stack</b> <code>// what I admit in interviews</code></summary>
 <br/>
 
 <div align="center">
@@ -48,7 +52,7 @@
 ---
 
 <details open>
-<summary><b>💼 Experience — tap a sector</b></summary>
+<summary><b>💼 Experience — tap a sector</b> <code>// career spoilers</code></summary>
 <br/>
 
 <details open>
@@ -159,7 +163,7 @@ Software for intelligent routers; monitoring services for UAVs and telecom syste
 ---
 
 <details open>
-<summary><b>🛸 Projects</b></summary>
+<summary><b>🛸 Projects</b> <code>// side quests that escaped into prod</code></summary>
 <br/>
 
 <details open>
@@ -214,7 +218,7 @@ FastAPI proxy between 1C and LM Studio: normalize 1C→OpenAI API requests, TDD,
 
 <img src="./assets/divider-scan.svg" width="100%" alt="scan"/>
 
-`// end of transmission — CV_ENG`
+`// end of transmission — CV_ENG · DNS not blamed this time`
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:B026FF,50:00F0FF,100:FF2D95&height=90&section=footer&text=CV_ENG&fontSize=20&fontColor=070b12&fontAlignY=65" alt="footer"/>
 

@@ -15,8 +15,8 @@
   <rect width="180" height="4" y="22" fill="url(#g)" filter="url(#glow)">
     <animate attributeName="x" values="-180;1200" dur="2.2s" repeatCount="indefinite"/>
   </rect>
-  <text x="600" y="16" text-anchor="middle" font-family="Consolas, monospace" font-size="11" fill="#00F0FF" opacity="0.8">
-    ════════ SCANNING SECTOR ════════
+  <text x="600" y="16" text-anchor="middle" font-family="Consolas, monospace" font-size="11" fill="#00F0FF">
+    ==== SCANNING FOR BUGS (hiding when HR looks) ====
     <animate attributeName="opacity" values="0.4;1;0.4" dur="1.4s" repeatCount="indefinite"/>
   </text>
 </svg>
