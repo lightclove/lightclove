@@ -141,7 +141,7 @@
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/lightclove/lightclove/main/assets/signal-map.svg?v=75d00e3" width="100%" alt="signal map pipeline"/>
+<img src="https://raw.githubusercontent.com/lightclove/lightclove/main/assets/signal-map.svg?v=55daee7" width="100%" alt="signal map pipeline"/>
 
 </div>
 
