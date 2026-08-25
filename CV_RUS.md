@@ -1,100 +1,128 @@
-# Дмитрий Ильюшко
+# Дмитрий · Python / Rust · backend / fullstack
 
-** Fullstack Python / Rust Engineer | AI/LLM/Системный интегратор**  
 [![Telegram](https://img.shields.io/badge/Telegram-@lightclove-26A5E4?style=flat&logo=telegram&logoColor=white)](https://t.me/lightclove)
 [![GitHub](https://img.shields.io/badge/GitHub-lightclove-181717?style=flat&logo=github&logoColor=white)](https://github.com/lightclove)
 [![Email](https://img.shields.io/badge/Email-dm.ilyushko@gmail.com-D14836?style=flat&logo=gmail&logoColor=white)](mailto:dm.ilyushko@gmail.com)
 
-> **Более 10 лет** в бэкенд-разработке, системной интеграции и промышленной автоматизации.  
-> Специализация: **Python (FastAPI, asyncio)**, **Rust** (сетевые клиенты, Telegram, Android/Windows), **микросервисы**, **LLM/RAG**, **низкоуровневые протоколы**.
+Санкт-Петербург · удалёнка / гибрид · полная занятость · 15 лет
+
+Инженер→backend→fullstack. API, интеграции, промышленные протоколы, телеком, поиск по документам. На Rust — сетевые клиенты и Telegram-боты: от идеи до компактного релиза под Windows, Linux и Android.
 
 ---
 
-## Ключевые навыки
+## Опыт
 
-| Область | Технологии |
-|---------|------------|
-| **Языки** | Python, Rust, Go, C++, Java (core), Bash |
-| **Фреймворки** | FastAPI, aiohttp, Celery, Dramatiq, gRPC |
-| **Брокеры / БД** | NATS, RabbitMQ · PostgreSQL, Oracle, MongoDB, ClickHouse, Qdrant |
-| **Протоколы** | Modbus (TCP/RTU), SNMP, LLDP, UART, RS‑232/485 · SOCKS5, Tor |
-| **ОС и инфра** | Linux (Arch/Debian/Ubuntu/CentOS/Astra), Docker, Kubernetes, Git, pytest · Android NDK/JNI |
-| **AI/ML** | LLM, RAG, sentence‑transformers, PyTorch, OpenCV, YOLO · Ollama |
+**МСА** · Fullstack · 09.2025 — н.в.  
+Корпоративная RAG-платформа для машиностроения (on-prem, NDA): поиск и чат по техдокументации. Архитектура, backend, frontend, внедрение в прод — от идеи до продакшена.
+
+- Пайплайн документов с нуля: загрузка PDF/DOCX, OCR сканов, извлечение текста, чанкинг, индекс.
+- Гибридный поиск (семантика + BM25), ответы через локальные LLM (Ollama, LM Studio) со ссылками на источники.
+- Индекс архива **400+ ГБ**: перестроил схему (уход с медленного ChromaDB на Qdrant), кэш эмбеддингов, инкрементальная переиндексация.
+- REST-сервис сопоставления записей для ERP: нечёткий поиск, дубли и синонимы в master-data.
+- SPA и админка на JS: чат, загрузка файлов, просмотр цитат, роли, мониторинг индексации в реальном времени.
+- Prod: Docker, Alembic, pytest, PostgreSQL, TFS/git, Kanban.
+
+`Python 3.13 · FastAPI · PostgreSQL · SQLAlchemy · Pydantic · sentence-transformers · FAISS · rank-bm25 · Qdrant · PyMuPDF · Tesseract · JavaScript · Docker · pytest`
+
+**Nova Labs** · Python · 01–08.2025  
+Два контракта.
+
+*Калибровка АСУТП (производство БЛА)*  
+Управление калибровочным оборудованием по Modbus TCP/RTU, сценарии калибровки. API FastAPI (старт/стоп, статус, журнал). Обмен сервисов через NATS, деплой Docker Compose (стенд = prod у заказчика).
+
+*Обмен данными с 1С*  
+ETL-сервер с нуля: выгрузка, трансформация, загрузка. REST FastAPI, валидация Pydantic, парсинг веб-источников (BeautifulSoup, Scrapy). Синхронизация 3 раза в сутки в проде.
+
+`Python · FastAPI · pymodbus · NATS · Alembic · Pydantic · Scrapy · Docker Compose`
+
+**Awakari** · Backend/Go · 01–08.2024 · удалённо  
+Интеграционная шина на базе rss-bridge: автоматический сбор данных из соцсетей.
+
+- Telegram-бот на Go: мультиязычность, RSS-ленты (go-telegram-bot-api, gofeed, goi18n).
+- Деплой и масштабирование в Kubernetes.
+
+`Go · Python · Kubernetes · REST API`
+
+**Неотех** · Python · 03–12.2023  
+Стартап agrotech: телеметрия и управление автоматизированной тепличной установкой — датчики, приводы, тысячи одновременных подключений.
+
+- API-шлюз на FastAPI, нагруженные воркеры на Node.js.
+- gRPC (срочные вызовы) и NATS (очереди событий/команд) между сервисами.
+- PostgreSQL — справочники; TimescaleDB — телеметрия и логи.
+- Нагрузочные тесты: 5000+ req/s на API управления, p99 < 50 ms.
+- Несколько экземпляров сервисов в Docker Compose.
+
+`Python 3.11 · FastAPI · gRPC · Node.js · PostgreSQL · TimescaleDB · NATS · Docker Compose`
+
+**НТЦ ПП** · ведущий / backend · 10.2021 — 03.2023  
+Два направления: NMS/EMS и интеграция корпоративных систем.
+
+*Мониторинг телеком-оборудования*  
+Автообнаружение устройств, опрос SNMP / LLDP / ICMP (netsnmp, pysnmp). Потоки через RabbitMQ, фоновые задачи Dramatiq, PostgreSQL, Alembic.
+
+*Интеграция систем заказчика*  
+Маршрутизация и преобразование сообщений: биллинг, CRM, платежи, внешние API. У каждого микросервиса своя БД — изоляция сбоев. Архитектура, техдокументация, демо заказчику.
+
+`Python 3.10 · PostgreSQL · MongoDB · RabbitMQ · Dramatiq · Alembic · SNMP`
+
+**Триколор** · разработчик / админ ЦОВ · 11.2020 — 10.2021  
+Национальная спутниковая компания, омниканальный контакт-центр (~12,6 млн абонентов).
+
+- Разработка и поддержка платформы на Genesys: интеграции с чат-ботами и внешними системами.
+- VoIP-клиенты, новые модули, администрирование серверов.
+
+`Python 3.8 · Genesys Composer SDK · VoIP · REST API`
+
+**2010–2020** · инженер-программист
+
+*Адмиралтейские верфи* · 2010–2012  
+Клиент-серверные приложения и БД для промышленного предприятия.  
+`C++ · Qt · Oracle 9i · PL/SQL`
+
+*Complete* · 2012–2013 · инженер аналитической группы  
+Развитие системы Hewlett Packard Project and Portfolio Management.  
+`Oracle 11g`
+
+*Авиационная и морская электроника* · 2013–2017 · инженер-программист  
+Мониторинг и управление сетевой инфраструктурой промышленного и телеком-оборудования; разработка под Asterisk PBX.  
+`Java · SNMP · Modbus · C++ · Python · PostgreSQL`
+
+*Ростех, НИИ «Рубин»* · 2017–2018 · старший инженер  
+CRM с нуля: учёт и автоматизация работ сервисных инженеров.  
+`Python · Django · PostgreSQL · RabbitMQ`
+
+*Институт телекоммуникаций* · 2018–2020 · инженер-программист  
+ПО для интеллектуальных маршрутизаторов, мониторинговые сервисы для БЛА и телеком-систем.  
+`C++ · Python · SNMP · LLDP · Docker`
 
 ---
 
-## Опыт работы (ключевое)
+## Проекты
 
-**AI Python Fullstack Разработчик** @ MCA  (09.2025 – н.в.)  
-- Разработал in‑house **RAG-платформу** для техдокументации (FastAPI + vanilla JS).  
-- Оптимизировал контекст LLM через `tiktoken`; кэширование эмбеддингов ускорило поиск в **3 раза**.  
-- Стек: Python 3.13, FastAPI, Qdrant, sentence‑transformers, OCR, LM Studio, Ollama.
+**rbot** · Rust · 08.2025 — н.в.  
+Telegram-бот учёта расходов: полная перепись Python→Rust в один static-бинарь (без tokio в своём коде). Postgres, Docker Alpine/musl, локальная Ollama (советы и разбор свободного ввода), polling Telegram через Tor на проде, деплой Windows→Arch, мониторинг слоёв и простоев.
 
-**Python Разработчик** @ СПС самозанятость(проектная работа) (01.2025 – 08.2025)  
-- Микросервисы для автоматизации производства БЛА: API калибровки (Modbus TCP/RTU).  
-- Асинхронный ETL-сервер и шина интеграции с 1С (FastAPI, BeautifulSoup, Scrapy).
+`Rust · PostgreSQL · Docker · ureq · serde · Ollama · musl`
 
-**Backend-разработчик** @ NZA (01.2024 – 08.2024)  
-- Интеграция с соцсетями через rss‑bridge на Go + Python; деплой в Kubernetes.  
-- Многоязычный Telegram‑бот (gorilla/mux, gofeed, goi18n).
+**rmalyk (Малык)** · Rust · 08.2025 — н.в.  
+Windows-клиент «Tor вместо VPN»: системный прокси (локальный HTTP→SOCKS Tor), официальный Expert Bundle, мосты obfs4 / snowflake / meek, автообновление движка и откат настроек. Ноль внешних crates — std + WinAPI FFI; релизный exe < 1 МБ.
 
-**Backend-разработчик** @ Неотех (03.2023 – 12.2023)  
-- Микросервисная система с **5000+ RPS** (FastAPI, gRPC, PostgreSQL, ClickHouse).
+`Rust · WinAPI · Tor · SOCKS5`
 
-**Backend-разработчик** @ НТЦПП проектная работа  (10.2021 – 03.2023)  
-- Интеграционная шина для крупного телеком‑оператора: маршрутизация, трансформация, биллинг.  
-- R&D: **NMS/EMS** мониторинг (pysnmp, LLDP, RabbitMQ, Dramatiq) – вынос обработки из БД в middleware → рост производительности.
+**mmalyk** · Rust / Android · 08.2025 — н.в.  
+Мобильный порт Малыка: UI и нативный код на Rust (JNI/NDK), VpnService + TUN→Tor SOCKS, вшитые libtor / lyrebird в APK. Тот же стек мостов и компактной сборки (opt-z, fat LTO, strip); тонкий Java только там, где требует Android.
 
-**Разработчик** @ Триколор (11.2020 – 10.2021)  
-- Поддержка омниканальной системы для **12,6 млн пользователей**; интеграция Genesys с VoIP и чат‑ботами.
-
-**Инженер-программист** (2010 – 2020)  
-- Промышленные и госпроекты: клиент-серверные системы, мониторинг сетей, middleware для БЛА.  
-- Технологии: C++, Qt, Python, PostgreSQL, SNMP, Modbus.
-
----
-
-## Свои проекты (Rust)
-
-**rbot** — Telegram-бот учёта расходов (08.2025 – н.в.)  
-Полная перепись Python→Rust в один static-бинарь (без tokio в своём коде): Postgres, Docker Alpine/musl, локальная Ollama, polling Telegram через Tor на проде, деплой Windows→Arch, мониторинг слоёв.
-
-**rmalyk (Малык)** — Windows-клиент «Tor вместо VPN» (08.2025 – н.в.)  
-Системный прокси (HTTP→SOCKS Tor), официальный Expert Bundle, мосты obfs4 / snowflake / meek, автообновление движка. Ноль внешних crates — std + WinAPI FFI; релизный exe < 1 МБ.
-
-**mmalyk** — Android-порт Малыка (08.2025 – н.в.)  
-UI и нативный код на Rust (JNI/NDK), VpnService + TUN→Tor SOCKS, вшитые libtor / lyrebird в APK. Компактная сборка (opt-z, fat LTO, strip).
+`Rust · Android NDK · JNI · VpnService · Tor`
 
 ---
 
 ## Образование
 
-**ПГУПС Императора Александра I**  
-*Прикладная математика и информатика* (2009)  
-Дополнительно: Oracle SQL/PLSQL, программирование на C.
+**ПГУПС**, 2009 · прикладная математика и информатика (математик, системный программист)
 
 ---
 
-## Методологии и софт‑скиллы
+## Стек
 
-- Agile (Scrum/Kanban), TDD/BDD, проектирование REST API  
-- Техническая документация  
-- Координация команд
-
----
-
-## Языки
-
-| Язык   | Уровень |
-|--------|---------|
-| Русский | Родной  |
-| Английский | B1 (активно, читаю техдокументацию) |
-
----
-
-## Интересы
-
-LLM‑агенты, Rust / systems programming, высоконагруженные системы, автоматизация, туризм, рыбалка, мото
-
----
-Telegram: [@lightclove](https://t.me/lightclove)
+Python · FastAPI · asyncio · PostgreSQL · MongoDB · Redis · SQLAlchemy · Pydantic · pytest  
+Rust · Docker · Linux · Git · RabbitMQ · NATS · gRPC · Modbus · SNMP · JavaScript · Go · C++ · Tor · Android NDK
